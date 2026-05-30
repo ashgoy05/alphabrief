@@ -1,0 +1,33 @@
+name: AlphaBrief Morning Stock Brief
+
+on:
+  schedule:
+    # 7 AM CT = 12:00 UTC (CST) or 13:00 UTC (CDT)
+    # Running at 13:00 UTC covers both CST and CDT safely
+    - cron: '0 13 * * 1-5'   # Mon-Fri only (market days)
+  workflow_dispatch:           # allows manual trigger from GitHub UI anytime
+
+jobs:
+  run-brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run AlphaBrief
+        env:
+          ANTHROPIC_API_KEY:              ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_SERVICE_ACCOUNT_JSON:    ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GMAIL_USER:                     ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD:             ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python src/main.py
