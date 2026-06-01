@@ -1,0 +1,49 @@
+name: AlphaBrief Morning Stock Brief
+
+on:
+  schedule:
+    - cron: '0 12 * * 1-5'   # 7 AM CDT (summer: Mar-Nov)
+    - cron: '0 13 * * 1-5'   # 7 AM CST (winter: Nov-Mar)
+  workflow_dispatch:           # manual trigger anytime
+
+jobs:
+  run-brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check if already ran today
+        id: check
+        run: |
+          HOUR=$(TZ="America/Chicago" date +%H)
+          echo "Chicago hour: $HOUR"
+          # Only run between 7:00-7:59 AM Chicago time
+          if [ "$HOUR" -eq "7" ]; then
+            echo "should_run=true" >> $GITHUB_OUTPUT
+          else
+            echo "should_run=false" >> $GITHUB_OUTPUT
+            echo "Skipping - not 7 AM Chicago time (hour=$HOUR)"
+          fi
+
+      - name: Checkout repo
+        if: steps.check.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        if: steps.check.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        if: steps.check.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
+        run: pip install -r requirements.txt
+
+      - name: Run AlphaBrief
+        if: steps.check.outputs.should_run == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          ANTHROPIC_API_KEY:            ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_SERVICE_ACCOUNT_JSON:  ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          GMAIL_USER:                   ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD:           ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: python src/main.py
