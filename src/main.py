@@ -347,6 +347,32 @@ Remaining: ${budget_remaining:.2f}
     elif sip_alerts:
         sip_block = f"\nSIP ALERT: {', '.join(sip_alerts)}"
 
+    # Build buy section separately to avoid nested f-string issues
+    if budget_exhausted:
+        buy_section = (
+            "NO BUYS THIS WEEK — BUDGET USED\n"
+            f"Already spent ${spent_this_week:.0f} this week. "
+            "List 2 stocks to research this weekend and buy next Monday."
+        )
+    else:
+        buy_section = (
+            f"BEST BUY TODAY (${budget_remaining:.0f} budget)\n"
+            "Pick the #1 stock from the scored list. Choose STRONG BUY first, then BUY, then hidden gem.\n"
+            "**TICKER** — Company name (what this company actually does in one line)\n"
+            "- Why it could make money: explain the growth story simply\n"
+            "- Score breakdown: mention the 2-3 biggest reasons it scored high\n"
+            f"- How much to invest: $[amount within ${budget_remaining:.0f}] — buy now or wait for price dip to $X\n"
+            "- One risk: what could go wrong in plain words\n\n"
+            "HIDDEN GEM PICK (high risk, could 2-5x in 2-3 years)\n"
+            "Pick the best small-cap from the hidden gems list above.\n"
+            "**TICKER** — what they do\n"
+            "- Why it could 2-5x: the big growth story\n"
+            "- Score: [score]/100 — [2 key reasons]\n"
+            "- How much: $[small amount — it's risky]"
+        )
+
+    budget_rule = "DO NOT suggest any buys — budget exhausted this week" if budget_exhausted else f"Suggest buys within ${budget_remaining:.0f} remaining budget"
+
     return f"""You are a sharp stock analyst helping a RISK-TAKING growth investor find stocks that can make them rich. Write in simple plain English — no jargon, like texting a smart friend. If you use a finance term explain it simply.
 
 DATE: {today}
@@ -356,54 +382,39 @@ PORTFOLIO VALUE: ${portfolio_val:,.0f}
 
 TODAY'S MARKET: {news_str}
 
-══════════════════════════════════════════
-TOP SCORED STOCKS (pre-ranked by AI framework using 30 data points each):
+TOP SCORED STOCKS (pre-ranked using 30 data points each):
 Scoring: Growth(40pts) + Quality(25pts) + Smart Money(20pts) + Hidden Gem(15pts) = 100pts max
-══════════════════════════════════════════
 {top_picks_str}
 
-HIDDEN GEMS (small cap, under $2B — most potential to 10x):
+HIDDEN GEMS (small cap under $2B — most potential to 10x):
 {gems_str}
 
-DIP-BUY WATCH (already own, dropped >5% — might be a good add):
+DIP-BUY WATCH (already own, dropped more than 5% — might be good to add more):
 {dip_str}
 
-CURRENT HOLDINGS (P&L):
+CURRENT HOLDINGS:
 {b_str}
 {sip_block}
 
 RULES:
 - Only recommend stocks from the scored list above
-- {"DO NOT suggest any buys — budget exhausted this week" if budget_exhausted else f"Suggest buys within ${budget_remaining:.0f} remaining budget"}
+- {budget_rule}
 - Can suggest adding more to a dip stock even if recently bought
 - Risk taker — bold picks are welcome
 - Explain WHY each stock could make money in simple words
+- Use ** around ticker symbols to bold them
 
 Write ONLY the brief below. No thinking out loud. Start directly:
 
-☀️ WHAT'S HAPPENING TODAY
+WHAT'S HAPPENING TODAY
 2 plain sentences — market situation and what it means for this portfolio.
 
-{"🚫 NO BUYS THIS WEEK — BUDGET USED" + chr(10) + f"Already spent ${spent_this_week:.0f} this week. Here are 2 stocks to research this weekend and buy next Monday:" if budget_exhausted else
-f"""🛒 BEST BUY TODAY (${budget_remaining:.0f} budget)
-Pick the #1 stock from the scored list. Choose STRONG BUY first, then BUY, then hidden gem.
-**TICKER** — Company name (what this company actually does in one line)
-• Why it could make money: explain the growth story simply
-• Score breakdown: mention the 2-3 biggest reasons it scored high
-• How much to invest: $[amount within ${budget_remaining:.0f}] — buy now or wait for price dip to $X
-• One risk: what could go wrong in plain words
+{buy_section}
 
-💎 HIDDEN GEM PICK (high risk, could 2-5x in 2-3 years)
-Pick the best small-cap from the hidden gems list above.
-**TICKER** — what they do
-• Why it could 2-5x: the big growth story
-• Score: [score]/100 — [2 key reasons]
-• How much: $[small amount — it's risky]"""}
-
-📰 ONE THING TO WATCH
+ONE THING TO WATCH
 One news story that could move stocks this week. 2 simple sentences.
 
-Under 320 words total. Bold the tickers."""
+Under 320 words total."""
 
 def get_brief(prompt):
     r = requests.post(
