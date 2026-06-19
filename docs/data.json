@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-19T13:21:09-05:00",
+  "generated_at": "2026-06-19T14:16:09-05:00",
   "market_status": "open",
-  "briefing": "**WHAT'S HAPPENING TODAY**\n\nMarket's closed for Juneteenth, but yesterday tech and smaller companies (Russell 2000) crushed it \u2014 your portfolio loaded with chip stocks (**AMD**, **KLAC**, **WDC**) and growth names should feel that tailwind. The Fed keeping rates steady while admitting growth is slowing is actually good news for growth investors like you \u2014 less pressure on valuations.\n\n**NO BUYS THIS WEEK \u2014 BUDGET USED**\n\nYou're tapped out at $4,582 spent. Research these two for next week: **PNRG** (tiny $300M cap, earnings up 133%, institutions loading up +26%) and **AMN** (healthcare staffing, tiny $1.2B, earnings up 95%, rock-solid quality score). Both are hidden gems flying under the radar.\n\n**ONE THING TO WATCH**\n\nU.S.-Iran deal (that MOU in France) tanked energy stocks yesterday \u2014 watch if **PSX** bounces back or keeps sliding. If oil stays weak, your energy positions (**SU**) could take hits, but cheaper energy is secretly good for the rest of the economy.\n\n**YOUR PORTFOLIO VIBES**\n\nYou're sitting pretty. **AMD** up 177%, **KLAC** up 170% \u2014 these semiconductor bets are *printing*. Your worst performer (**FSPTX** at +33%) is still crushing it. The big dip alerts on **MSFT** (-10.8%) and **PLTR** (-16.6%) are noise for a growth investor \u2014 both are quality names taking profit hits, not broken companies.\n\n**MOVE FOR THIS WEEKEND**\n\nYour cash is gone but your portfolio is on fire. Don't chase. Study **PNRG** and **AMN** hard \u2014 when you get fresh cash, one of those tiny-cap monsters could be your next 100%+ play. You've got winners working. Let them work.",
+  "briefing": "**WHAT'S HAPPENING TODAY**\n\nMarkets are closed for Juneteenth, so we're sitting tight until Monday. The big story from yesterday: Tech and small-cap stocks jumped (Russell 2000 up 2.12%) while energy tanked after the US-Iran peace deal eased tensions, which is good news for your portfolio heavy in tech winners.\n\n**NO BUYS THIS WEEK \u2014 BUDGET USED**\n\nYou've already spent $4,582 this week, so we're sitting on our hands until next week's budget resets. Research these two for potential entry points:\n\n1. **PNRG** (PrimeEnergy Resources) \u2014 Score 75/100. Earnings up 133% with institutional money flowing in (+26.2%). Tiny $300M market cap means big volatility, but the fundamentals are screaming. Perfect for risk takers who want explosive growth.\n\n2. **TDC** (Teradata Corporation) \u2014 Score 73/100. Rock-solid growth stability (99/100 rating) with institutions loading up (+35.9%). At $33, it's a boring blue-collar data play but the quality metrics are elite\u2014institutions don't lie.\n\n**ONE THING TO WATCH**\n\nThe Fed just signaled slower economic growth and higher inflation coming, which could spook stocks when markets reopen Monday\u2014watch for tech to wobble early in the week. Your holdings in **AMD**, **KLAC**, and **TSM** love growth narratives, so any inflation talk could create a dip-buy opportunity if you get fresh budget next week.\n\n**BONUS:** **PSX** (Phillips 66) is down 7.1% and on your watchlist as a dip-buy. Energy weakness from the Iran deal is temporary. If it dips another 2-3%, it's a gift for patient capital.",
   "portfolio": {
     "goal": 10000,
     "total_value": 15733.2,
@@ -853,7 +853,29 @@
     }
   ],
   "earnings": [],
-  "macro": null,
+  "macro": {
+    "items": [
+      {
+        "label": "10-yr Treasury",
+        "value": "4.443%",
+        "change": "-0.014",
+        "direction": "down"
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$76.60",
+        "change": "-0.19",
+        "direction": "down"
+      },
+      {
+        "label": "VIX",
+        "value": "16.40",
+        "change": "-2.04",
+        "direction": "down"
+      }
+    ],
+    "note": "Yields and oil easing \u2014 the friendly backdrop for growth and tech. Lower rates make future earnings worth more today, which is what your watchlist leans on."
+  },
   "track_record": {
     "calls_made": 0,
     "evaluated": 0,
