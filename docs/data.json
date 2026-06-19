@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-18T21:49:26-05:00",
-  "market_status": "closed",
-  "briefing": "**WHAT'S HAPPENING TODAY**\n\nMarkets are closed for Juneteenth, but yesterday was a solid day \u2014 chips rallied hard (Nasdaq up 2.3%) and the Fed signaled rates might go higher. Your portfolio is packed with chip/tech winners, so that rally is already baked into your gains.\n\n**NO BUYS THIS WEEK \u2014 BUDGET USED**\n\nYou're tapped out at $100. But here's what to research this weekend:\n\n**PNRG** (PrimeEnergy Resources) \u2014 Score 75/100. Earnings are exploding (+133%) and institutions are loading up (+26.2%). Tiny market cap ($0.3B) means big move potential if this story catches fire. This is the kind of hidden gem that could 10x for a risk-taker.\n\n**AMN** (AMN Healthcare) \u2014 Score 69/100. Healthcare staffing play with insane earnings growth (+95%) and nearly perfect quality score (99/100). Less volatile than **PNRG** but still massively undervalued. Institutions buying heavily (+24.8%).\n\n**ONE THING TO WATCH**\n\nThe Fed's rate-hike talk could spook the market Monday when it reopens \u2014 higher rates make growth stocks cheaper, which might dip your holdings temporarily. **MSFT** and **PLTR** are already down 10%+ which actually makes them better buys next week if you can scrape together more budget.\n\n**BONUS INSIGHT**\n\nYour **PSX** (Phillips 66) is down 7.1% \u2014 classic dip-buy territory for energy exposure, but you're out of cash. Your portfolio is beautifully positioned in chips and semiconductors (**AMD**, **KLAC**, **LRCX** all crushing it). That SpaceX IPO rallying 19% shows the market is still hungry for growth. Don't FOMO in Monday \u2014 wait for next week's budget and stick to your scored list.",
+  "generated_at": "2026-06-19T13:21:09-05:00",
+  "market_status": "open",
+  "briefing": "**WHAT'S HAPPENING TODAY**\n\nMarket's closed for Juneteenth, but yesterday tech and smaller companies (Russell 2000) crushed it \u2014 your portfolio loaded with chip stocks (**AMD**, **KLAC**, **WDC**) and growth names should feel that tailwind. The Fed keeping rates steady while admitting growth is slowing is actually good news for growth investors like you \u2014 less pressure on valuations.\n\n**NO BUYS THIS WEEK \u2014 BUDGET USED**\n\nYou're tapped out at $4,582 spent. Research these two for next week: **PNRG** (tiny $300M cap, earnings up 133%, institutions loading up +26%) and **AMN** (healthcare staffing, tiny $1.2B, earnings up 95%, rock-solid quality score). Both are hidden gems flying under the radar.\n\n**ONE THING TO WATCH**\n\nU.S.-Iran deal (that MOU in France) tanked energy stocks yesterday \u2014 watch if **PSX** bounces back or keeps sliding. If oil stays weak, your energy positions (**SU**) could take hits, but cheaper energy is secretly good for the rest of the economy.\n\n**YOUR PORTFOLIO VIBES**\n\nYou're sitting pretty. **AMD** up 177%, **KLAC** up 170% \u2014 these semiconductor bets are *printing*. Your worst performer (**FSPTX** at +33%) is still crushing it. The big dip alerts on **MSFT** (-10.8%) and **PLTR** (-16.6%) are noise for a growth investor \u2014 both are quality names taking profit hits, not broken companies.\n\n**MOVE FOR THIS WEEKEND**\n\nYour cash is gone but your portfolio is on fire. Don't chase. Study **PNRG** and **AMN** hard \u2014 when you get fresh cash, one of those tiny-cap monsters could be your next 100%+ play. You've got winners working. Let them work.",
   "portfolio": {
     "goal": 10000,
-    "total_value": 15722.58,
+    "total_value": 15733.2,
     "cash": 0,
-    "invested": 15722.58,
+    "invested": 15733.2,
     "cost_basis": 13088.08,
-    "total_gain": 2634.51,
-    "total_gain_pct": 20.13,
+    "total_gain": 2645.13,
+    "total_gain_pct": 20.21,
     "day_change": 0.0,
     "day_change_pct": 0.0,
     "concentration_warnings": []
@@ -117,9 +117,9 @@
         "ticker": "FSPTX",
         "name": "FSPTX",
         "signal": "Trim",
-        "price": 55.38,
-        "gain_pct": 28.5,
-        "reason": "Up 29% past your entry. Taking some off keeps the win and trims the single-name risk."
+        "price": 57.28,
+        "gain_pct": 32.9,
+        "reason": "Up 33% past your entry. Taking some off keeps the win and trims the single-name risk."
       },
       {
         "ticker": "URI",
@@ -317,10 +317,10 @@
       "name": "FSPTX",
       "shares": 1.978,
       "entry": 43.09,
-      "price": 55.38,
-      "value": 109.54,
+      "price": 57.28,
+      "value": 113.3,
       "change_pct": 0,
-      "gain_pct": 28.52,
+      "gain_pct": 32.93,
       "sector": null,
       "flag": "trim"
     },
@@ -425,10 +425,10 @@
       "name": "FZROX",
       "shares": 3.445,
       "entry": 23.46,
-      "price": 25.88,
-      "value": 89.16,
+      "price": 26.18,
+      "value": 90.19,
       "change_pct": 0,
-      "gain_pct": 10.32,
+      "gain_pct": 11.59,
       "sector": null,
       "flag": null
     },
@@ -533,10 +533,10 @@
       "name": "FXAIX",
       "shares": 1.268,
       "entry": 255.87,
-      "price": 258.4,
-      "value": 327.65,
+      "price": 261.21,
+      "value": 331.21,
       "change_pct": 0,
-      "gain_pct": 0.99,
+      "gain_pct": 2.09,
       "sector": null,
       "flag": null
     },
@@ -581,10 +581,10 @@
       "name": "FBMPX",
       "shares": 0.645,
       "entry": 139.89,
-      "price": 139.52,
-      "value": 89.99,
+      "price": 141.94,
+      "value": 91.55,
       "change_pct": 0,
-      "gain_pct": -0.26,
+      "gain_pct": 1.47,
       "sector": null,
       "flag": null
     },
@@ -617,10 +617,10 @@
       "name": "FSUTX",
       "shares": 0.597,
       "entry": 139.55,
-      "price": 135.39,
-      "value": 80.83,
+      "price": 136.57,
+      "value": 81.53,
       "change_pct": 0,
-      "gain_pct": -2.98,
+      "gain_pct": -2.14,
       "sector": null,
       "flag": null
     },
@@ -853,29 +853,7 @@
     }
   ],
   "earnings": [],
-  "macro": {
-    "items": [
-      {
-        "label": "10-yr Treasury",
-        "value": "4.46%",
-        "change": "0.00",
-        "direction": "flat"
-      },
-      {
-        "label": "WTI Crude",
-        "value": "$74.82",
-        "change": "-1.97",
-        "direction": "down"
-      },
-      {
-        "label": "VIX",
-        "value": "16.40",
-        "change": "-2.04",
-        "direction": "down"
-      }
-    ],
-    "note": "Yields and oil easing \u2014 the friendly backdrop for growth and tech. Lower rates make future earnings worth more today, which is what your watchlist leans on."
-  },
+  "macro": null,
   "track_record": {
     "calls_made": 0,
     "evaluated": 0,
