@@ -1,0 +1,56 @@
+name: AlphaBrief
+
+# Runs every weekday morning, and on demand (the refresh button / worker
+# uses workflow_dispatch to trigger this same job).
+on:
+  schedule:
+    - cron: "0 12 * * 1-5"   # 7am CDT
+    - cron: "0 13 * * 1-5"   # 7am CST
+  workflow_dispatch:          # manual + on-demand refresh
+
+permissions:
+  contents: write             # needed to commit docs/ back to the repo
+
+concurrency:
+  group: alphabrief
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      # 7am-only gate for the scheduled runs; manual/refresh runs skip it.
+      - name: Check it's the right hour (skip on manual)
+        if: github.event_name == 'schedule'
+        run: |
+          HOUR=$(TZ=America/Chicago date +%H)
+          if [ "$HOUR" != "07" ]; then
+            echo "Not 7am Chicago ($HOUR) - exiting."; exit 0
+          fi
+
+      - name: Run AlphaBrief
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python src/main.py        # main.py now calls write_dashboard()
+
+      - name: Publish the brief
+        run: |
+          git config user.name  "alphabrief-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data.json docs/track_record.json
+          if git diff --staged --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "brief: $(TZ=America/Chicago date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
