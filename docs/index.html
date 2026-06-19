@@ -137,6 +137,13 @@
   .macro-cell .c{font-family:var(--mono); font-size:12px; margin-top:2px}
   .note{font-size:13.5px; color:var(--text); opacity:.9; line-height:1.55}
 
+  /* briefing */
+  .brief .brief-h{font-family:var(--mono); font-size:11px; letter-spacing:.14em;
+    color:var(--signal); margin:16px 0 7px}
+  .brief .brief-h:first-child{margin-top:0}
+  .brief .brief-p{font-size:14px; color:var(--text); opacity:.92; margin:5px 0; line-height:1.62}
+  .brief strong{color:#fff; font-weight:600}
+
   /* track record */
   .tr-grid{display:flex; gap:22px; flex-wrap:wrap; align-items:center}
   .tr-stat .n{font-family:var(--mono); font-weight:700; font-size:26px; line-height:1}
@@ -273,6 +280,7 @@ function render(d){
     </div>
 
     ${chipsHTML(p.concentration_warnings)}
+    ${briefingHTML(d.briefing)}
     ${callsHTML(d.calls)}
     ${positionsHTML(d.positions)}
     ${watchlistHTML(d.watchlist)}
@@ -280,6 +288,23 @@ function render(d){
     ${macroHTML(d.macro)}
     ${trackHTML(d.track_record)}
   `;
+}
+
+function briefingHTML(t){
+  if(!t) return "";
+  let html = "";
+  for(const raw of String(t).split("\n")){
+    const line = raw.trim();
+    if(!line) continue;
+    const bolded = line.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+    const isHeader = line.length>=5 && line.length<60 &&
+                     line === line.toUpperCase() && /[A-Z]/.test(line);
+    html += isHeader
+      ? `<div class="brief-h">${line}</div>`
+      : `<p class="brief-p">${bolded}</p>`;
+  }
+  return `<section class="reveal"><div class="head"><h2>This morning</h2></div>
+          <div class="card brief">${html}</div></section>`;
 }
 
 function chipsHTML(w){
