@@ -38,6 +38,7 @@ def write_dashboard(
     earnings_dates=None,  # WIRE(optional): {ticker:(name,'YYYY-MM-DD',when)}
     macro_snapshot=None,  # WIRE(optional): {'10-yr Treasury':(val,chg,'down'), ...}
     market_status="pre-open",
+    briefing=None,        # WIRE(optional): your AI morning brief (plain text)
 ):
     today = dt.datetime.now(CHICAGO).date()
     owned = {p["ticker"] for p in positions}
@@ -49,6 +50,7 @@ def write_dashboard(
     data = {
         "generated_at": dt.datetime.now(CHICAGO).isoformat(timespec="seconds"),
         "market_status": market_status,
+        "briefing": briefing,
         "portfolio": F.compute_portfolio(positions, cash, goal),
         "calls": {
             "buys": buys,
