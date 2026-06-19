@@ -1,0 +1,78 @@
+{
+  "generated_at": "2026-06-19T07:01:00-05:00",
+  "market_status": "pre-open",
+  "portfolio": {
+    "goal": 10000,
+    "total_value": 6712.40,
+    "cash": 184.20,
+    "invested": 6528.20,
+    "cost_basis": 6268.66,
+    "total_gain": 443.74,
+    "total_gain_pct": 7.08,
+    "day_change": 31.90,
+    "day_change_pct": 0.48,
+    "concentration_warnings": [
+      { "label": "Energy / Industrials", "pct": 38, "level": "warn" },
+      { "label": "Single name \u2014 PSX", "pct": 26, "level": "info" }
+    ]
+  },
+  "calls": {
+    "buys": [
+      {
+        "ticker": "GEV", "name": "GE Vernova", "score": 87, "action": "Buy",
+        "budget": 600, "price": 512.40, "change_pct": 1.20,
+        "why": "Grid + power buildout for data centers keeps driving orders. Top score on growth and smart-money this week."
+      },
+      {
+        "ticker": "CELH", "name": "Celsius Holdings", "score": 79, "action": "Starter buy",
+        "budget": 350, "price": 44.10, "change_pct": -0.80,
+        "why": "Down hard from highs but PepsiCo distribution story intact. Small starter so a bad print doesn't sting."
+      }
+    ],
+    "sells": [
+      {
+        "ticker": "SNDK", "name": "SanDisk", "signal": "Trim",
+        "price": 61.80, "gain_pct": 28.0,
+        "reason": "Up 28% past your entry and stretched vs. where analysts peg it. Taking some off keeps the win and lowers the memory-cycle risk."
+      }
+    ]
+  },
+  "positions": [
+    {
+      "ticker": "SNDK", "name": "SanDisk", "shares": 38, "entry": 48.30,
+      "price": 61.80, "value": 2348.40, "gain_pct": 27.95, "flag": "trim"
+    },
+    {
+      "ticker": "CARE", "name": "Carter's", "shares": 21, "entry": 42.10,
+      "price": 39.20, "value": 823.20, "gain_pct": -6.89, "flag": "dip-buy"
+    },
+    {
+      "ticker": "PSX", "name": "Phillips 66", "shares": 12, "entry": 138.60,
+      "price": 142.30, "value": 1707.60, "gain_pct": 2.67, "flag": null
+    }
+  ],
+  "watchlist": [
+    { "ticker": "GEV", "name": "GE Vernova", "score": 87, "growth": 36, "quality": 22, "smart_money": 18, "gem": 11, "price": 512.40, "change_pct": 1.20 },
+    { "ticker": "AVGO", "name": "Broadcom", "score": 82, "growth": 34, "quality": 23, "smart_money": 17, "gem": 8, "price": 248.10, "change_pct": 0.40 },
+    { "ticker": "CELH", "name": "Celsius Holdings", "score": 79, "growth": 35, "quality": 18, "smart_money": 15, "gem": 11, "price": 44.10, "change_pct": -0.80 },
+    { "ticker": "LLY", "name": "Eli Lilly", "score": 77, "growth": 33, "quality": 24, "smart_money": 16, "gem": 4, "price": 902.50, "change_pct": 0.90 },
+    { "ticker": "MU", "name": "Micron", "score": 71, "growth": 30, "quality": 19, "smart_money": 14, "gem": 8, "price": 118.70, "change_pct": -1.60 },
+    { "ticker": "ARW", "name": "Arrow Electronics", "score": 54, "growth": 20, "quality": 18, "smart_money": 10, "gem": 6, "price": 226.80, "change_pct": -0.30 }
+  ],
+  "earnings": [
+    { "ticker": "CELH", "name": "Celsius Holdings", "date": "2026-06-23", "when": "after close", "owned": false },
+    { "ticker": "SNDK", "name": "SanDisk", "date": "2026-06-25", "when": "after close", "owned": true }
+  ],
+  "macro": {
+    "items": [
+      { "label": "10-yr Treasury", "value": "4.19%", "change": "-0.05", "direction": "down" },
+      { "label": "WTI Crude", "value": "$62.80", "change": "-1.30", "direction": "down" },
+      { "label": "VIX", "value": "15.6", "change": "-0.70", "direction": "down" }
+    ],
+    "note": "Yields and oil both easing this morning \u2014 that's the friendly backdrop for growth and tech. Lower rates make future earnings worth more today, which is exactly what your watchlist leans on."
+  },
+  "track_record": {
+    "calls_made": 14, "evaluated": 9, "worked": 6, "hit_rate": 0.67, "avg_return": 3.8,
+    "note": "Six of the last nine calls that have had time to play out are in the green. Small sample \u2014 keep watching before you trust it."
+  }
+}
