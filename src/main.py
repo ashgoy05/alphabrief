@@ -4,7 +4,7 @@ Runs every morning at 7 AM CT via GitHub Actions
 5 sheets: Budget, Watchlist, Bought, Buying History, SIP
 Now publishes a dashboard (docs/data.json) instead of emailing.
 """
-
+from rules_engine import enforce
 import os, json, requests, re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
