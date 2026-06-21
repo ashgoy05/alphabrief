@@ -1,10 +1,11 @@
 """
 AlphaBrief - Daily Stock Research Bot
 Runs every morning at 7 AM CT via GitHub Actions
-5 sheets: Budget, Watchlist, Bought, Buying History, SIP
-Now publishes a dashboard (docs/data.json) instead of emailing.
+6 sheets: Budget, Watchlist, Bought, Buying History, SIP, Rules
+Now publishes a dashboard (docs/data.json) instead of emailing,
+and enforces the buy/sell/sizing playbook (docs/rules.json) via rules_engine.
 """
-from rules_engine import enforce
+
 import os, json, requests, re
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
@@ -12,6 +13,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 from build_dashboard import write_dashboard
+from rules_engine import enforce
 
 GDRIVE_FILE_ID  = "18aobOtBNbYqhiuP1X13z8VRSwYRnWwVEzV7Ec6zhhtQ"
 ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
@@ -37,16 +39,20 @@ def read_drive_sheet():
     )
     svc = build("sheets", "v4", credentials=creds)
     data = {}
-    for sheet in ["Budget", "Watchlist", "Bought", "Buying History", "SIP"]:
-        rows = svc.spreadsheets().values().get(
-            spreadsheetId=GDRIVE_FILE_ID, range=f"{sheet}!A1:Z200"
-        ).execute().get("values", [])
+    for sheet in ["Budget", "Watchlist", "Bought", "Buying History", "SIP", "Rules"]:
+        try:
+            rows = svc.spreadsheets().values().get(
+                spreadsheetId=GDRIVE_FILE_ID, range=f"{sheet}!A1:Z200"
+            ).execute().get("values", [])
+        except Exception as e:
+            print(f"  ({sheet} tab not found - skipping: {e})")
+            rows = []
         if rows:
             h = rows[0]
             data[sheet] = [dict(zip(h, r + [""]*(len(h)-len(r)))) for r in rows[1:] if any(c.strip() for c in r)]
         else:
             data[sheet] = []
-    print(f"Read: Budget={len(data['Budget'])}, Watchlist={len(data['Watchlist'])}, Bought={len(data['Bought'])}, History={len(data['Buying History'])}, SIP={len(data['SIP'])}")
+    print(f"Read: Budget={len(data['Budget'])}, Watchlist={len(data['Watchlist'])}, Bought={len(data['Bought'])}, History={len(data['Buying History'])}, SIP={len(data['SIP'])}, Rules={len(data['Rules'])}")
     return data
 
 def get_portfolio_value(bought):
@@ -476,6 +482,25 @@ def main():
     macro = get_macro()
     positions = build_positions(data)
     buys, watchlist = build_calls_and_watchlist(data, remaining)
+
+    # ---- rules engine: enforce the playbook on today's data -> docs/rules.json
+    report = None
+    try:
+        scores = {s.get("Symbol",""): score_stock(s)["score"] for s in data.get("Watchlist", [])}
+        report = enforce(data, scores)
+        os.makedirs("docs", exist_ok=True)
+        with open("docs/rules.json", "w") as f:
+            json.dump(report, f, indent=2, default=str)
+        print(f"Rules: {len(report['buy_candidates'])} clean buys, "
+              f"{len(report['holding_actions'])} holding actions, "
+              f"{len(report['theme_breaches'])} theme breaches -> docs/rules.json")
+        for h in report["holding_actions"]:
+            tags = ", ".join(a for a, _ in h["actions"])
+            print(f"   {h['symbol']}: {tags}")
+        for b in report["theme_breaches"]:
+            print(f"   THEME: {b}")
+    except Exception as e:
+        print("rules engine skipped:", e)
 
     write_dashboard(
         positions=positions,
