@@ -88,7 +88,7 @@ def write_dashboard(
         sells = [s for s in sells
                  if verdicts.get(str(s.get("ticker", "")).upper()) in _CUT_LIKE]
 
-    portfolio = F.compute_portfolio(positions, cash, goal)
+    portfolio = F.compute_portfolio(positions, cash, goal, external_total)
 
     data = {
         "generated_at": dt.datetime.now(CHICAGO).isoformat(timespec="seconds"),

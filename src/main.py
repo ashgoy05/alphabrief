@@ -38,20 +38,29 @@ def read_drive_sheet():
         scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"]
     )
     svc = build("sheets", "v4", credentials=creds)
+    # actual tab name in the sheet  ->  internal key the rest of the code uses
+    tab_map = {
+        "Budget":               "Budget",
+        "USA Stocks Watchlist": "Watchlist",
+        "Already Bought":       "Bought",
+        "Buying History":       "Buying History",
+        "SIP":                  "SIP",
+        "Rules":                "Rules",
+    }
     data = {}
-    for sheet in ["Budget", "Watchlist", "Bought", "Buying History", "SIP", "Rules"]:
+    for tab_name, key in tab_map.items():
         try:
             rows = svc.spreadsheets().values().get(
-                spreadsheetId=GDRIVE_FILE_ID, range=f"{sheet}!A1:Z200"
+                spreadsheetId=GDRIVE_FILE_ID, range=f"{tab_name}!A1:Z200"
             ).execute().get("values", [])
         except Exception as e:
-            print(f"  ({sheet} tab not found - skipping: {e})")
+            print(f"  ({tab_name} tab not found - skipping: {e})")
             rows = []
         if rows:
             h = rows[0]
-            data[sheet] = [dict(zip(h, r + [""]*(len(h)-len(r)))) for r in rows[1:] if any(c.strip() for c in r)]
+            data[key] = [dict(zip(h, r + [""]*(len(h)-len(r)))) for r in rows[1:] if any(c.strip() for c in r)]
         else:
-            data[sheet] = []
+            data[key] = []
     print(f"Read: Budget={len(data['Budget'])}, Watchlist={len(data['Watchlist'])}, Bought={len(data['Bought'])}, History={len(data['Buying History'])}, SIP={len(data['SIP'])}, Rules={len(data['Rules'])}")
     return data
 
@@ -88,6 +97,18 @@ def get_goal(data):
         if "goal" in label or "target" in label:
             return safe_float(vals[1] if len(vals) > 1 else 0) or 10000
     return 10000
+
+def get_external_total(data):
+    """Combined value of all your OTHER accounts (India book, MFs, 401k, HSA,
+    NPS...) - everything OUTSIDE this US trading sheet. Add an 'Other Accounts'
+    row to the Budget tab (label in col A, amount in col B); defaults to 0.
+    This is added to Account Value WITHOUT double-counting the US sleeve."""
+    for row in data.get("Budget", []):
+        vals = list(row.values())
+        label = str(vals[0] if vals else "").strip().lower()
+        if "other account" in label or "external" in label or "net worth" in label:
+            return safe_float(vals[1] if len(vals) > 1 else 0)
+    return 0.0
 
 def get_weekly_direct_spend(data):
     week_start   = get_week_start()
@@ -506,6 +527,7 @@ def main():
         positions=positions,
         cash=get_cash(data),
         goal=get_goal(data),
+        external_total=get_external_total(data),
         buys=buys,
         watchlist=watchlist,
         targets=None,            # no analyst targets in the sheet -> trims fire on run-up/stop only
