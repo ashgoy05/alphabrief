@@ -38,29 +38,37 @@ def read_drive_sheet():
         scopes=["https://www.googleapis.com/auth/spreadsheets.readonly"]
     )
     svc = build("sheets", "v4", credentials=creds)
-    # actual tab name in the sheet  ->  internal key the rest of the code uses
-    tab_map = {
-        "Budget":               "Budget",
-        "USA Stocks Watchlist": "Watchlist",
-        "Already Bought":       "Bought",
-        "Buying History":       "Buying History",
-        "SIP":                  "SIP",
-        "Rules":                "Rules",
+    # internal key -> possible tab names (first that exists with data wins).
+    # Rename-proof: handles Watchlist <-> USA Stocks Watchlist, Bought <-> Already Bought, etc.
+    tab_aliases = {
+        "Budget":         ["Budget"],
+        "Watchlist":      ["USA Stocks Watchlist", "Watchlist", "US Stocks Watchlist", "US Watchlist"],
+        "Bought":         ["Already Bought", "Bought", "Holdings"],
+        "Buying History": ["Buying History", "History"],
+        "SIP":            ["SIP"],
+        "Rules":          ["Rules"],
     }
     data = {}
-    for tab_name, key in tab_map.items():
-        try:
-            rows = svc.spreadsheets().values().get(
-                spreadsheetId=GDRIVE_FILE_ID, range=f"{tab_name}!A1:Z200"
-            ).execute().get("values", [])
-        except Exception as e:
-            print(f"  ({tab_name} tab not found - skipping: {e})")
-            rows = []
+    for key, names in tab_aliases.items():
+        rows, used = [], None
+        for tab_name in names:
+            try:
+                fetched = svc.spreadsheets().values().get(
+                    spreadsheetId=GDRIVE_FILE_ID, range=f"{tab_name}!A1:Z200"
+                ).execute().get("values", [])
+            except Exception:
+                continue
+            if fetched:
+                rows, used = fetched, tab_name
+                break
         if rows:
             h = rows[0]
             data[key] = [dict(zip(h, r + [""]*(len(h)-len(r)))) for r in rows[1:] if any(c.strip() for c in r)]
+            if used and used != names[0]:
+                print(f"  ({key}: matched tab '{used}')")
         else:
             data[key] = []
+            print(f"  (no tab found for '{key}' - tried {names})")
     print(f"Read: Budget={len(data['Budget'])}, Watchlist={len(data['Watchlist'])}, Bought={len(data['Bought'])}, History={len(data['Buying History'])}, SIP={len(data['SIP'])}, Rules={len(data['Rules'])}")
     return data
 
