@@ -1,35 +1,867 @@
 {
-  "generated_at": "2026-06-21T00:51:04-05:00",
+  "generated_at": "2026-06-21T01:20:23-05:00",
   "market_status": "closed",
-  "briefing": "# PORTFOLIO BRIEF \u2014 Sunday, June 21, 2026\n\n## WHAT'S HAPPENING TODAY\nMarkets are quiet heading into the week \u2014 no major news yet for today, so we're in a holding pattern. This is actually good timing since your budget is completely tapped out and you need to let recent buys breathe.\n\n## NO BUYS THIS WEEK \u2014 BUDGET USED\nYou've already deployed $4,582 this week, so you're sitting on the sidelines. **Research these two this weekend** for potential entry next week:\n\n1. **Stock A** \u2014 Review the scoring breakdown (Growth/Quality/Smart Money/Hidden Gem) to understand why it ranked high, then check if any dip happens Monday-Tuesday.\n\n2. **Stock B** \u2014 Same deal \u2014 understand the thesis before you buy, so you're ready to pull the trigger fast if it drops >5% early week.\n\n## ONE THING TO WATCH\n**Fed speakers this week** \u2014 Any comments about interest rates could swing growth stocks (the kind you love) up or down fast. If they sound dovish (relaxed about rates), growth stocks typically rally hard.\n\n## REALITY CHECK\nYour portfolio is sitting at $0 value right now, which means either:\n- You just started fresh, OR\n- Something's wrong with the data\n\nEither way, you crushed it this week spending your full $100 budget. Now comes the hard part: **patience**. Don't chase. Let those positions settle and watch for dips to average down if the thesis still holds.\n\n**Next move:** Monday morning, check if any holdings dropped >5% at open. If yes, that's your signal to start thinking about week 2 buys (once you have budget again).",
+  "briefing": "**WHAT'S HAPPENING TODAY**\n\nMarket data isn't loading for today, but your portfolio is sitting pretty at $15,840 with massive gains across the board \u2014 your biggest winners (**AMD**, **KLAC**, **WDC**) are all up 150%+. You're tapped out on buying power this week, so today is about watching, not doing.\n\n**NO BUYS THIS WEEK \u2014 BUDGET USED**\n\nYou've already deployed $4,582 this week. Here's what to research over the weekend:\n\n1. **PNRG** (PrimeEnergy Resources) \u2014 Score 75/100. Earnings up 133%, institutions piling in (+26.2%), and it's a tiny company ($300M market cap). This is the kind of hidden gem that can 10x, but it's also risky. Worth deep-diving into the financials and recent earnings call.\n\n2. **AMN** (AMN Healthcare Services) \u2014 Score 69/100. Healthcare staffing play with 95% earnings growth and nearly perfect quality score (99/100). Smaller than **SANM** but less volatile. Could be a sneaky long-term compounder.\n\n**ONE THING TO WATCH**\n\n**Fed interest rate decisions this week** \u2014 if rates stay higher for longer, it kills growth stocks (your bread and butter). If they hint at cuts, your **AMD**, **RKLB**, and **KLAC** positions could rip even higher.\n\n**QUICK NOTE ON YOUR DIP-BUY ALERT**\n\n**PSX** (Phillips 66) is down 7.1%. You don't own it, but if energy sector weakness continues, it could be a value trap. Skip it \u2014 your energy plays (**SU**, **WTI** on your watch list) are better positioned.\n\n**YOUR REAL MOVE THIS WEEK**\n\nDo nothing. You crushed it already. Use the weekend to research **PNRG** and **AMN**, then come back with fresh capital next week ready to hunt. Your portfolio is on fire \u2014 don't get FOMO'd into bad entries.",
   "portfolio": {
     "goal": 1000000.0,
-    "total_value": 64000.0,
-    "trading_value": 0,
+    "total_value": 79839.58,
+    "trading_value": 15839.58,
     "external_total": 64000.0,
     "cash": 0,
-    "invested": 0,
-    "cost_basis": 0,
-    "total_gain": 0,
-    "total_gain_pct": 0.0,
-    "day_change": 0,
+    "invested": 15839.58,
+    "cost_basis": 13188.83,
+    "total_gain": 2650.75,
+    "total_gain_pct": 20.1,
+    "day_change": 0.0,
     "day_change_pct": 0.0,
     "concentration_warnings": []
   },
   "calls": {
     "buys": [],
-    "sells": []
+    "sells": [
+      {
+        "ticker": "AMD",
+        "name": "Advanced Micro Devices Inc",
+        "signal": "Trim",
+        "price": 537.37,
+        "gain_pct": 177.5,
+        "reason": "Up 177% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "KLAC",
+        "name": "KLAC",
+        "signal": "Trim",
+        "price": 259.56,
+        "gain_pct": 170.3,
+        "reason": "Up 170% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "WDC",
+        "name": "WESTERN DIGITAL CORP",
+        "signal": "Trim",
+        "price": 746.23,
+        "gain_pct": 160.6,
+        "reason": "Up 161% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "RKLB",
+        "name": "ROCKET LAB",
+        "signal": "Trim",
+        "price": 107.24,
+        "gain_pct": 116.1,
+        "reason": "Up 116% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "VRT",
+        "name": "VERTIV HOLDING",
+        "signal": "Trim",
+        "price": 333.05,
+        "gain_pct": 123.0,
+        "reason": "Up 123% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "INOD",
+        "name": "INNODATA",
+        "signal": "Trim",
+        "price": 95.5,
+        "gain_pct": 98.8,
+        "reason": "Up 99% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "PWR",
+        "name": "QUANTA SERVICES UOM",
+        "signal": "Trim",
+        "price": 702.25,
+        "gain_pct": 52.4,
+        "reason": "Up 52% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "MPWR",
+        "name": "NONLIITHIC POWER SYSTEM",
+        "signal": "Trim",
+        "price": 1563.7,
+        "gain_pct": 44.6,
+        "reason": "Up 45% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "TSM",
+        "name": "Taiwan Semicndctr Mnufctrng Co Ltd",
+        "signal": "Trim",
+        "price": 462.12,
+        "gain_pct": 54.5,
+        "reason": "Up 54% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "SU",
+        "name": "SUNCOR ENERGY",
+        "signal": "Trim",
+        "price": 55.33,
+        "gain_pct": 34.4,
+        "reason": "Up 34% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "LRCX",
+        "name": "LAM REEARCH",
+        "signal": "Trim",
+        "price": 389.04,
+        "gain_pct": 31.0,
+        "reason": "Up 31% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "APH",
+        "name": "APH",
+        "signal": "Trim",
+        "price": 163.96,
+        "gain_pct": 34.4,
+        "reason": "Up 34% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "FSPTX",
+        "name": "FSPTX",
+        "signal": "Trim",
+        "price": 57.28,
+        "gain_pct": 32.9,
+        "reason": "Up 33% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "URI",
+        "name": "UNITED RENTAL INC",
+        "signal": "Trim",
+        "price": 1076.81,
+        "gain_pct": 26.3,
+        "reason": "Up 26% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "ASML",
+        "name": "ASML HOLDINGS",
+        "signal": "Trim",
+        "price": 1929.68,
+        "gain_pct": 28.3,
+        "reason": "Up 28% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "TER",
+        "name": "TERADYNE INC",
+        "signal": "Trim",
+        "price": 437.92,
+        "gain_pct": 26.4,
+        "reason": "Up 26% past your entry. Taking some off keeps the win and trims the single-name risk."
+      },
+      {
+        "ticker": "PLTR",
+        "name": "Palantir Technologies Inc",
+        "signal": "Cut",
+        "price": 128.47,
+        "gain_pct": -16.6,
+        "reason": "Down 17% past your entry \u2014 below your stop. Thesis isn't working; freeing the cash beats hoping."
+      }
+    ]
   },
-  "positions": [],
-  "watchlist": [],
+  "positions": [
+    {
+      "ticker": "FITB",
+      "name": "FIFTH THIRD BANCORP",
+      "shares": 2.017,
+      "entry": 49.95,
+      "price": 52.74,
+      "value": 106.38,
+      "change_pct": 0,
+      "gain_pct": 5.59,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices Inc",
+      "shares": 0.793,
+      "entry": 193.68,
+      "price": 537.37,
+      "value": 426.13,
+      "change_pct": 0,
+      "gain_pct": 177.45,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLAC",
+      "shares": 1.58,
+      "entry": 96.03,
+      "price": 259.56,
+      "value": 410.1,
+      "change_pct": 0,
+      "gain_pct": 170.29,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "WDC",
+      "name": "WESTERN DIGITAL CORP",
+      "shares": 1.357,
+      "entry": 286.34,
+      "price": 746.23,
+      "value": 1012.63,
+      "change_pct": 0,
+      "gain_pct": 160.61,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "ROCKET LAB",
+      "shares": 1.0,
+      "entry": 49.63,
+      "price": 107.24,
+      "value": 107.24,
+      "change_pct": 0,
+      "gain_pct": 116.08,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "VRT",
+      "name": "VERTIV HOLDING",
+      "shares": 0.853,
+      "entry": 149.37,
+      "price": 333.05,
+      "value": 284.09,
+      "change_pct": 0,
+      "gain_pct": 122.97,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "INOD",
+      "name": "INNODATA",
+      "shares": 1.8,
+      "entry": 48.03,
+      "price": 95.5,
+      "value": 171.9,
+      "change_pct": 0,
+      "gain_pct": 98.83,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "PWR",
+      "name": "QUANTA SERVICES UOM",
+      "shares": 0.867,
+      "entry": 460.89,
+      "price": 702.25,
+      "value": 608.85,
+      "change_pct": 0,
+      "gain_pct": 52.37,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "MPWR",
+      "name": "NONLIITHIC POWER SYSTEM",
+      "shares": 0.601,
+      "entry": 1081.15,
+      "price": 1563.7,
+      "value": 939.78,
+      "change_pct": 0,
+      "gain_pct": 44.63,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semicndctr Mnufctrng Co Ltd",
+      "shares": 1.156,
+      "entry": 299.14,
+      "price": 462.12,
+      "value": 534.21,
+      "change_pct": 0,
+      "gain_pct": 54.48,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "SU",
+      "name": "SUNCOR ENERGY",
+      "shares": 2.446,
+      "entry": 41.18,
+      "price": 55.33,
+      "value": 135.34,
+      "change_pct": 0,
+      "gain_pct": 34.36,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "LAM REEARCH",
+      "shares": 1.009,
+      "entry": 297.08,
+      "price": 389.04,
+      "value": 392.54,
+      "change_pct": 0,
+      "gain_pct": 30.95,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "APH",
+      "name": "APH",
+      "shares": 0.819,
+      "entry": 121.98,
+      "price": 163.96,
+      "value": 134.28,
+      "change_pct": 0,
+      "gain_pct": 34.42,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "FSPTX",
+      "name": "FSPTX",
+      "shares": 1.978,
+      "entry": 43.09,
+      "price": 57.28,
+      "value": 113.3,
+      "change_pct": 0,
+      "gain_pct": 32.93,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "URI",
+      "name": "UNITED RENTAL INC",
+      "shares": 0.527,
+      "entry": 852.58,
+      "price": 1076.81,
+      "value": 567.48,
+      "change_pct": 0,
+      "gain_pct": 26.3,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML HOLDINGS",
+      "shares": 0.18,
+      "entry": 1504.22,
+      "price": 1929.68,
+      "value": 347.34,
+      "change_pct": 0,
+      "gain_pct": 28.28,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "TER",
+      "name": "TERADYNE INC",
+      "shares": 0.577,
+      "entry": 346.5,
+      "price": 437.92,
+      "value": 252.68,
+      "change_pct": 0,
+      "gain_pct": 26.38,
+      "sector": null,
+      "flag": "trim"
+    },
+    {
+      "ticker": "FANG",
+      "name": "FANG",
+      "shares": 0.245,
+      "entry": 154.59,
+      "price": 183.5,
+      "value": 44.96,
+      "change_pct": 0,
+      "gain_pct": 18.7,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "SNDK",
+      "name": "SANDIK",
+      "shares": 0.083,
+      "entry": 1791.5,
+      "price": 2184.75,
+      "value": 181.33,
+      "change_pct": 0,
+      "gain_pct": 21.95,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "GOOGLE",
+      "shares": 0.256,
+      "entry": 316.21,
+      "price": 368.03,
+      "value": 94.22,
+      "change_pct": 0,
+      "gain_pct": 16.39,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "SPCX",
+      "name": "SPACE EXPL TECHNOLOGIES CORP CL A",
+      "shares": 2.0,
+      "entry": 171.99,
+      "price": 185.0,
+      "value": 370.0,
+      "change_pct": 0,
+      "gain_pct": 7.56,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "BKR",
+      "name": "BAKER HUGHES",
+      "shares": 2.337,
+      "entry": 56.05,
+      "price": 58.41,
+      "value": 136.5,
+      "change_pct": 0,
+      "gain_pct": 4.21,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "FZROX",
+      "name": "FZROX",
+      "shares": 3.445,
+      "entry": 23.46,
+      "price": 26.18,
+      "value": 90.19,
+      "change_pct": 0,
+      "gain_pct": 11.59,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "CARE",
+      "name": "CARTER BANKSHARES INC",
+      "shares": 1.844,
+      "entry": 27.09,
+      "price": 30.96,
+      "value": 57.09,
+      "change_pct": 0,
+      "gain_pct": 14.29,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "CSTM",
+      "name": "CONSTELLIUM SE",
+      "shares": 10.0,
+      "entry": 33.13,
+      "price": 34.0,
+      "value": 340.0,
+      "change_pct": 0,
+      "gain_pct": 2.63,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly And Co",
+      "shares": 0.121,
+      "entry": 1079.83,
+      "price": 1098.57,
+      "value": 132.93,
+      "change_pct": 0,
+      "gain_pct": 1.74,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "UAL",
+      "name": "UNITED AIRLINES",
+      "shares": 1.303,
+      "entry": 115.79,
+      "price": 118.32,
+      "value": 154.17,
+      "change_pct": 0,
+      "gain_pct": 2.18,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "MU",
+      "name": "MICRON TECHNOLOGY INC",
+      "shares": 2.0,
+      "entry": 1055.01,
+      "price": 1133.99,
+      "value": 2267.98,
+      "change_pct": 0,
+      "gain_pct": 7.49,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "shares": 5.033,
+      "entry": 206.73,
+      "price": 210.69,
+      "value": 1060.4,
+      "change_pct": 0,
+      "gain_pct": 1.92,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "V",
+      "name": "VISA",
+      "shares": 0.113,
+      "entry": 315.31,
+      "price": 327.24,
+      "value": 36.98,
+      "change_pct": 0,
+      "gain_pct": 3.78,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "CEG",
+      "name": "CONSTELLATION ENERGY CORP",
+      "shares": 0.207,
+      "entry": 259.32,
+      "price": 274.06,
+      "value": 56.73,
+      "change_pct": 0,
+      "gain_pct": 5.68,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "FXAIX",
+      "name": "FXAIX",
+      "shares": 1.268,
+      "entry": 255.87,
+      "price": 261.21,
+      "value": 331.21,
+      "change_pct": 0,
+      "gain_pct": 2.09,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc",
+      "shares": 0.641,
+      "entry": 391.17,
+      "price": 411.35,
+      "value": 263.68,
+      "change_pct": 0,
+      "gain_pct": 5.16,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "GILD",
+      "name": "GILEAD SCIENSE INC",
+      "shares": 0.404,
+      "entry": 124.41,
+      "price": 123.76,
+      "value": 50.0,
+      "change_pct": 0,
+      "gain_pct": -0.52,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "NBIX",
+      "name": "NEUROCRINE BIOSCIENCES INC",
+      "shares": 2.0,
+      "entry": 159.89,
+      "price": 158.29,
+      "value": 316.58,
+      "change_pct": 0,
+      "gain_pct": -1.0,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "FBMPX",
+      "name": "FBMPX",
+      "shares": 0.645,
+      "entry": 139.89,
+      "price": 141.94,
+      "value": 91.55,
+      "change_pct": 0,
+      "gain_pct": 1.47,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "WM",
+      "name": "WASTE MANAGEMENT",
+      "shares": 0.155,
+      "entry": 222.06,
+      "price": 214.6,
+      "value": 33.26,
+      "change_pct": 0,
+      "gain_pct": -3.36,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "PSX",
+      "name": "PHILLIPS 66",
+      "shares": 0.279,
+      "entry": 178.79,
+      "price": 166.14,
+      "value": 46.35,
+      "change_pct": 0,
+      "gain_pct": -7.07,
+      "sector": null,
+      "flag": "dip-buy"
+    },
+    {
+      "ticker": "FSUTX",
+      "name": "FSUTX",
+      "shares": 0.597,
+      "entry": 139.55,
+      "price": 136.57,
+      "value": 81.53,
+      "change_pct": 0,
+      "gain_pct": -2.14,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CROWDSTRIKE HLDGS",
+      "shares": 0.048,
+      "entry": 717.92,
+      "price": 684.86,
+      "value": 32.87,
+      "change_pct": 0,
+      "gain_pct": -4.6,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "STRL",
+      "name": "STERLING INFRASTRUCTURE INC COM",
+      "shares": 2.0,
+      "entry": 904.36,
+      "price": 861.88,
+      "value": 1723.76,
+      "change_pct": 0,
+      "gain_pct": -4.7,
+      "sector": null,
+      "flag": null
+    },
+    {
+      "ticker": "MSFT",
+      "name": "MICROSOFT",
+      "shares": 0.569,
+      "entry": 425.1,
+      "price": 379.4,
+      "value": 215.88,
+      "change_pct": 0,
+      "gain_pct": -10.75,
+      "sector": null,
+      "flag": "dip-buy"
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Inc",
+      "shares": 0.117,
+      "entry": 480.77,
+      "price": 451.63,
+      "value": 52.84,
+      "change_pct": 0,
+      "gain_pct": -6.06,
+      "sector": null,
+      "flag": "dip-buy"
+    },
+    {
+      "ticker": "META",
+      "name": "META",
+      "shares": 1.109,
+      "entry": 633.73,
+      "price": 577.22,
+      "value": 640.14,
+      "change_pct": 0,
+      "gain_pct": -8.92,
+      "sector": null,
+      "flag": "dip-buy"
+    },
+    {
+      "ticker": "HSY",
+      "name": "HERSHET COMPANY",
+      "shares": 0.518,
+      "entry": 194.05,
+      "price": 172.63,
+      "value": 89.42,
+      "change_pct": 0,
+      "gain_pct": -11.04,
+      "sector": null,
+      "flag": "dip-buy"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "AMAZON",
+      "shares": 0.033,
+      "entry": 268.79,
+      "price": 244.39,
+      "value": 8.06,
+      "change_pct": 0,
+      "gain_pct": -9.08,
+      "sector": null,
+      "flag": "dip-buy"
+    },
+    {
+      "ticker": "PATH",
+      "name": "UIPATH",
+      "shares": 7.0,
+      "entry": 11.92,
+      "price": 10.27,
+      "value": 71.89,
+      "change_pct": 0,
+      "gain_pct": -13.84,
+      "sector": null,
+      "flag": "dip-buy"
+    },
+    {
+      "ticker": "OKLO",
+      "name": "Oklo Inc",
+      "shares": 0.605,
+      "entry": 68.26,
+      "price": 61.17,
+      "value": 37.01,
+      "change_pct": 0,
+      "gain_pct": -10.39,
+      "sector": null,
+      "flag": "dip-buy"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc",
+      "shares": 1.446,
+      "entry": 154.02,
+      "price": 128.47,
+      "value": 185.77,
+      "change_pct": 0,
+      "gain_pct": -16.59,
+      "sector": null,
+      "flag": "dip-buy"
+    }
+  ],
+  "watchlist": [
+    {
+      "ticker": "PNRG",
+      "name": "PrimeEnergy Resources Corp",
+      "score": 75,
+      "price": 190.21,
+      "change_pct": 0
+    },
+    {
+      "ticker": "TDC",
+      "name": "Teradata Corporation",
+      "score": 73,
+      "price": 32.99,
+      "change_pct": 0
+    },
+    {
+      "ticker": "SANM",
+      "name": "Sanmina Corp",
+      "score": 72,
+      "price": 253.28,
+      "change_pct": 0
+    },
+    {
+      "ticker": "AMN",
+      "name": "AMN Healthcare Services Inc.",
+      "score": 69,
+      "price": 30.7,
+      "change_pct": 0
+    },
+    {
+      "ticker": "CNC",
+      "name": "Centene Corp",
+      "score": 69,
+      "price": 65.33,
+      "change_pct": 0
+    },
+    {
+      "ticker": "MCY",
+      "name": "Mercury General Corp",
+      "score": 68,
+      "price": 100.16,
+      "change_pct": 0
+    },
+    {
+      "ticker": "SNEX",
+      "name": "StoneX Group Inc",
+      "score": 68,
+      "price": 131.49,
+      "change_pct": 0
+    },
+    {
+      "ticker": "DXCM",
+      "name": "DexCom Inc",
+      "score": 66,
+      "price": 74.69,
+      "change_pct": 0
+    },
+    {
+      "ticker": "WTI",
+      "name": "W&T Offshore Inc",
+      "score": 66,
+      "price": 4.07,
+      "change_pct": 0
+    },
+    {
+      "ticker": "MOV",
+      "name": "Movado Group Inc",
+      "score": 65,
+      "price": 38.87,
+      "change_pct": 0
+    },
+    {
+      "ticker": "DELL",
+      "name": "Dell Technologies Inc",
+      "score": 65,
+      "price": 399.02,
+      "change_pct": 0
+    },
+    {
+      "ticker": "DIOD",
+      "name": "Diodes Inc",
+      "score": 65,
+      "price": 109.04,
+      "change_pct": 0
+    },
+    {
+      "ticker": "NWPX",
+      "name": "NWPX Infrastructure Inc",
+      "score": 64,
+      "price": 128.56,
+      "change_pct": 0
+    },
+    {
+      "ticker": "EZPW",
+      "name": "EZCORP Inc",
+      "score": 64,
+      "price": 31.34,
+      "change_pct": 0
+    },
+    {
+      "ticker": "YOU",
+      "name": "Clear Secure Inc",
+      "score": 64,
+      "price": 50.7,
+      "change_pct": 0
+    }
+  ],
   "earnings": [],
   "macro": {
     "items": [
       {
         "label": "10-yr Treasury",
-        "value": "4.43%",
-        "change": "-0.27",
-        "direction": "down"
+        "value": "4.45%",
+        "change": "+0.00",
+        "direction": "flat"
       },
       {
         "label": "WTI Crude",
