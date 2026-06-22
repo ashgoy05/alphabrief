@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-22T16:34:40-05:00",
+  "generated_at": "2026-06-22T16:36:29-05:00",
   "market_status": "closed",
-  "briefing": "WHAT'S HAPPENING TODAY\n\nBig Tech got hammered today (Alphabet down 10%, Meta/Amazon down 4%) because investors are spooked by how much money AI companies are burning on equipment. Meanwhile, chip makers and banks rallied\u2014which is great news since your portfolio is loaded with chip stocks that just keep printing money.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings up 133% YoY while the stock is still tiny. Peace talks with Iran could stabilize oil prices, and this company prints cash when energy is stable. Institutions are aggressively buying in.\n- Score breakdown: EPS growth crushing it (+133%), rock-solid quality (96/100), and smart money loading up (+26.2% institutional buying)\n- How much: $100 gets you roughly 0.5 shares at $190.21\n- One risk: Energy is volatile. If peace talks succeed TOO well and oil crashes, this sinks fast. Also it's illiquid (small company).\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**WTI** \u2014 W&T Offshore (small-cap oil producer)\n- Why it could 2-5x: Up 120% already in 52 weeks but still only $0.6B market cap. Earnings up 90%, trading cheap relative to energy peer strength. Tiny float means explosive moves when bought.\n- Score: 66/100\n- How much: $30 (buys ~7 shares at $4.07)\n\nONE THING TO WATCH\n\nIran peace talks are the wild card this week\u2014if they progress, oil and energy stocks could crater, but stability might actually help long-term energy plays. Watch energy headlines before Wednesday.",
+  "briefing": "WHAT'S HAPPENING TODAY\nTech stocks are getting hammered today (Nasdaq down 1.32%) with **Alphabet**, **Amazon**, and **Meta** all dropping hard \u2014 this is actually a gift for growth investors since quality companies get cheaper when the whole sector panics. Your portfolio is mostly semiconductors and industrial plays, so you're sitting pretty while tech bleeds out.\n\nBEST BUY TODAY ($100 budget)\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings jumped 133% because oil prices stayed strong and they're finding more profitable reserves. At $0.3B market cap, this tiny company has room to run if energy demand stays hot.\n- Score breakdown: Quality is elite (96/100), big institutions are buying it up (+26.2%), and analysts keep raising price targets \u2014 that's \"smart money\" voting with real dollars.\n- How much: $100 (buys you about 0.5 shares at $190/share, but worth the full position)\n- One risk: Micro-cap stocks are volatile; if oil crashes or they hit a dry well, this could tank 30% fast.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n**WTI** \u2014 W&T Offshore Inc (oil & gas offshore drilling)\n- Why it could 2-5x: Already up 120% in 52 weeks but earnings jumped 90% \u2014 stock's still catching up to fundamentals. Tiny $0.6B market cap means huge upside if energy stays in demand.\n- Score: 66/100\n- How much: Skip this week; wait for better entry point or use next week's $100.\n\nONE THING TO WATCH\n**Micron earnings Wednesday** \u2014 chip maker reporting results; if they beat big, semiconductor rally continues and your **KLAC** and **WDC** holdings spike. Watch for AI demand commentary since that's driving the whole sector right now.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 80119.77,
@@ -898,8 +898,8 @@
     "items": [
       {
         "label": "10-yr Treasury",
-        "value": "4.48%",
-        "change": "+0.04",
+        "value": "4.50%",
+        "change": "+0.05",
         "direction": "up"
       },
       {
@@ -910,12 +910,12 @@
       },
       {
         "label": "VIX",
-        "value": "17.38",
-        "change": "+0.60",
-        "direction": "up"
+        "value": "17.07",
+        "change": "-1.92",
+        "direction": "down"
       }
     ],
-    "note": "Rates or oil ticking up \u2014 a small headwind for the long-duration growth names. Nothing alarming, just less of a tailwind than yesterday."
+    "note": "Yields and oil easing \u2014 the friendly backdrop for growth and tech. Lower rates make future earnings worth more today, which is what your watchlist leans on."
   },
   "track_record": {
     "calls_made": 3,
