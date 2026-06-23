@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23T14:27:34-05:00",
+  "generated_at": "2026-06-23T14:32:02-05:00",
   "market_status": "open",
-  "briefing": "WHAT'S HAPPENING TODAY\n\nTech stocks got hammered today as Wall Street worried AI companies are spending billions without proving they'll actually make money back \u2014 basically betting huge on a future that might not happen. Your portfolio is crushing it overall, but this pullback is typical growth-investor noise; the real winners (AMD, KLAC, WDC) prove the thesis still works.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas energy company)\n- Why it could make money: Earnings jumped 133% and institutions are quietly buying in (+26.2%). This looks like smart money seeing value before the crowd catches on.\n- Score breakdown: Quality is elite (96/100), analysts are raising price targets, and institutions buying signals they know something.\n- How much: $100 (buy ~0.5 shares at $190)\n- One risk: Small company ($300M market cap) = volatile; energy prices could shift and hurt profits fast.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**WTI** \u2014 W&T Offshore (small-cap oil & gas exploration)\n- Why it could 2-5x: Already up 120% in 52 weeks with +90% earnings growth. Micro-cap ($600M) means huge upside if energy stays hot or they hit a big discovery.\n- Score: 66/100\n- How much: $20-30 (play it smaller, riskier bet)\n\nONE THING TO WATCH\n\nSpaceX just lost $600 billion in value over three days \u2014 the second-worst one-day drop ever \u2014 which signals mega-cap tech investors are getting nervous about trillion-dollar bets. Watch if this contagion spreads to your holdings like RKLB (aerospace) this week.",
+  "briefing": "WHAT'S HAPPENING TODAY\n\nTech and consumer stocks got hammered Monday as investors took profits and geopolitical risks spook the market \u2014 this is noise, not fundamentals breaking. Your portfolio is built on quality growth plays that weather this kind of chop, so stay calm and buy the dips with conviction.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings exploding up 133% year-over-year while the energy sector stays hot. Institutions are loading up (+26.2%), which means smart money sees the runway ahead.\n- Score breakdown: Quality at 96/100 (rock-solid fundamentals), analysts upgrading it, tiny market cap ($300M) means room to run vs. blue chips.\n- How much: $100 full allocation\n- One risk: Oil prices are cyclical \u2014 if geopolitical tensions ease, crude could slide and take PNRG down with it.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**WTI** \u2014 W&T Offshore Inc (shallow-water oil & gas production)\n- Why it could 2-5x: Already up 120% in 52 weeks with EPS +90%, and at only $0.6B market cap it's small enough to move on good news. Energy tailwinds + tiny float = explosive potential.\n- Score: 66/100\n- How much: $50 (if PNRG fills, skip this; if you want dual exposure, split it)\n\nONE THING TO WATCH\n\nSpaceX just tanked $600B in value over three days \u2014 watch if this shakes other growth/space-tech stocks you own like **RKLB**. Your portfolio has some leverage to the space economy, so any cascade selling here could create a buying opportunity Thursday/Friday.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 79229.35,
@@ -870,29 +870,7 @@
     }
   ],
   "earnings": [],
-  "macro": {
-    "items": [
-      {
-        "label": "10-yr Treasury",
-        "value": "4.48%",
-        "change": "-0.02",
-        "direction": "down"
-      },
-      {
-        "label": "WTI Crude",
-        "value": "$73.79",
-        "change": "-0.09",
-        "direction": "down"
-      },
-      {
-        "label": "VIX",
-        "value": "17.28",
-        "change": "+0.50",
-        "direction": "up"
-      }
-    ],
-    "note": "Yields and oil easing \u2014 the friendly backdrop for growth and tech. Lower rates make future earnings worth more today, which is what your watchlist leans on."
-  },
+  "macro": null,
   "track_record": {
     "calls_made": 6,
     "evaluated": 0,
