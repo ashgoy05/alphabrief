@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-26T13:13:18-05:00",
+  "generated_at": "2026-06-26T13:18:38-05:00",
   "market_status": "open",
-  "briefing": "WHAT'S HAPPENING TODAY\n\nThe S&P 500 barely moved up 0.14%, but AI stocks got hammered while banks and industrial companies gained \u2014 meaning the market is rotating away from hype and into solid, money-making businesses. Your portfolio is heavy in semiconductors and tech, so you're swimming against the tide right now, but this could be the reset that makes boring profitable stocks the new winners.\n\nBEST BUY TODAY ($100 budget)\n\n**TDC** \u2014 Teradata Corporation (they build massive databases that companies use to analyze data)\n- Why it could make money: Institutions are flooding in (+35.9%), analysts keep raising price targets, and the stock has rock-solid growth stability (99/100) \u2014 meaning it won't swing wildly while you sleep\n- Score breakdown: Near-perfect quality (96/100), ultra-stable growth, smart money moving in\n- How much: $100 buys ~3 shares at $32.99\n- One risk: Database software is boring and competitive \u2014 if a cheaper option shows up, they lose customers fast\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**PNRG** \u2014 PrimeEnergy Resources (energy company with oil/gas assets)\n- Why it could 2-5x: EPS jumped 133% (massive earnings growth), institutions buying aggressively, tiny $300M market cap means fewer shares to move the needle \u2014 one good earnings beat and this flies\n- Score: 75/100\n- How much: $100 buys 0.5 shares at $190 \u2014 size it for comfort\n\nONE THING TO WATCH\n\nOpenAI might delay its IPO next year, which could spook AI investors even more and flush out weak hands. Watch if **NVDA** and **PLTR** drop another 5-10% \u2014 that's your signal the selling isn't done yet.",
+  "briefing": "# FRIDAY BRIEF \u2014 JUNE 26, 2026\n\n**WHAT'S HAPPENING TODAY**\n\nTech stocks are getting sold off hard while the overall market stays flat \u2014 investors are running scared from AI hype and pulling money into safer stuff. Your portfolio is heavy in semiconductors and tech, so this rotation could hurt short-term, but the smart money is still buying quality growth names.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings jumped 133% \u2014 these guys are printing cash as energy prices stay strong. Institutions are loading up (+26.2%), which means the big money sees real value here.\n- Score breakdown: Quality is elite (96/100), analysts keep raising price targets, and tiny market cap ($300M) means huge upside if it runs.\n- How much: $100 gets you roughly 0.5 shares at $190/sh\n- One risk: Energy is cyclical \u2014 if oil crashes, this gets destroyed fast. Also tiny companies are volatile as hell.\n\n**HIDDEN GEM PICK (high risk, could 2-5x)**\n\n**WTI** \u2014 W&T Offshore Inc (deep-water oil production)\n- Why it could 2-5x: Already up 120% in a year and earnings grew 90%. At $4.07/sh with a $600M market cap, this is pure leverage to energy upside \u2014 way more explosive than **PNRG**.\n- Score: 66/100\n- How much: Skip this week; save dry powder. Too risky with $100 when **PNRG** is higher-quality.\n\n**ONE THING TO WATCH**\n\n**Verizon getting booted from the Dow on June 29** and replaced by Alphabet \u2014 this is a symbolic shift away from \"boring dividend stocks\" and into AI/growth. Watch if this sparks more rotation out of telecoms into tech (good for your holdings like **KLAC** and **AMD**).",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 79142.22,
@@ -883,23 +883,23 @@
       {
         "label": "10-yr Treasury",
         "value": "4.39%",
-        "change": "+0.003",
-        "direction": "up"
+        "change": "-0.01",
+        "direction": "down"
       },
       {
         "label": "WTI Crude",
-        "value": "$70.73",
-        "change": "-1.19",
+        "value": "$69.50",
+        "change": "-2.42",
         "direction": "down"
       },
       {
         "label": "VIX",
-        "value": "18.89",
-        "change": "+0.26",
+        "value": "18.68",
+        "change": "+0.05",
         "direction": "up"
       }
     ],
-    "note": "Rates or oil ticking up \u2014 a small headwind for the long-duration growth names. Nothing alarming, just less of a tailwind than yesterday."
+    "note": "Yields and oil easing \u2014 the friendly backdrop for growth and tech. Lower rates make future earnings worth more today, which is what your watchlist leans on."
   },
   "track_record": {
     "calls_made": 15,
