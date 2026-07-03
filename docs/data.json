@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03T09:15:08-05:00",
+  "generated_at": "2026-07-03T10:03:56-05:00",
   "market_status": "open",
-  "briefing": "WHAT'S HAPPENING TODAY\n\nUS markets are closed for the July 4th holiday, but Europe's crushing it with tech and utilities hitting record highs. The softer jobs report means the Fed probably won't raise interest rates soon, which is good news for growth stocks like yours \u2014 companies can borrow cheaper and reinvest in expansion.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings jumped 133% year-over-year. Oil prices stay elevated, and this company is tiny ($300M market cap) so it has massive upside room if energy stays hot.\n- Score breakdown: Quality rated 96/100 (super solid fundamentals), institutions are buying hard (+26.2%), and analysts keep raising price targets \u2014 that's smart money flowing in.\n- How much: $100 buys about 0.52 shares at $190.21\n- One risk: Energy sector is cyclical \u2014 if oil crashes, this gets hammered fast since it's small and leveraged to commodity prices.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**AMN** \u2014 AMN Healthcare Services (staffing for hospitals and clinics)\n- Why it could 2-5x: Earnings up 95%, quality is nearly perfect (99/100), and it's only a $1.2B company. Healthcare staffing is structural \u2014 aging population means more demand forever.\n- Score: 69/100\n- How much: Skip this week; you don't have room, but add it next week if dip-buys work out.\n\nONE THING TO WATCH\n\nOpenAI might get $5B from the US government and Meta's selling unused AI compute power \u2014 both moves validate that AI infrastructure is the real money-maker, not just chatbots. Watch if this pushes capital away from consumer AI hype into hardware plays like **KLAC** and **NVDA** (which you own).",
+  "briefing": "WHAT'S HAPPENING TODAY\n\nMarkets are closed for July 4th, so no trading today \u2014 but yesterday tech got hammered while old-school stocks like Apple rallied, meaning growth investors like you are seeing a split personality market. Your chip stocks (AMD, KLAC) are sitting pretty with huge gains, but the AI trade is getting shaky, so we're being selective right now.\n\nBEST BUY TODAY ($100 budget)\n\n**TDC** \u2014 Teradata Corporation (data storage and analytics software)\n- Why it could make money: Companies are drowning in data and need better ways to organize it. Teradata helps them do that, and demand is accelerating as AI needs clean data.\n- Score breakdown: Growth stability is nearly perfect (99/100), quality is rock-solid (96/100), and institutions are buying hard (+35.9%), meaning smart money sees this before regular people do.\n- How much: $100 buys roughly 3 shares at current price\n- One risk: If corporate spending on software slows down during a recession, these guys feel it fast.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil and gas exploration and production)\n- Why it could 2-5x: Earnings up 133% \u2014 this company is printing cash. It's tiny ($300M market cap), so even small good news could rocket the stock. Energy stocks are having a moment while the market rotates away from pure tech.\n- Score: 75/100\n- How much: $50 (buy just 0.25 shares to test it)\n\nONE THING TO WATCH\n\nOpenAI negotiating to sell 5% to the US government is huge \u2014 if it happens, confidence in AI leadership shifts and could fuel another AI rally next week. Watch for deal announcements Monday or Tuesday; if it closes, the whole sector could bounce back from yesterday's beating.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 78288.0,
@@ -874,14 +874,14 @@
     "items": [
       {
         "label": "10-yr Treasury",
-        "value": "4.47%",
+        "value": "4.49%",
         "change": "-0.01",
         "direction": "down"
       },
       {
         "label": "WTI Crude",
-        "value": "$68.45",
-        "change": "-2.00",
+        "value": "$68.56",
+        "change": "-0.13",
         "direction": "down"
       },
       {
