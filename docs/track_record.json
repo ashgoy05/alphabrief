@@ -250,5 +250,23 @@
     "ticker": "SANM",
     "price_at_call": 253.28,
     "score": 72
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "PNRG",
+    "price_at_call": 190.21,
+    "score": 75
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "TDC",
+    "price_at_call": 32.99,
+    "score": 73
+  },
+  {
+    "date": "2026-07-09",
+    "ticker": "SANM",
+    "price_at_call": 253.28,
+    "score": 72
   }
 ]
