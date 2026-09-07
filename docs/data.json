@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-07T12:33:14-05:00",
+  "generated_at": "2026-09-07T13:00:56-05:00",
   "market_status": "open",
-  "briefing": "**WHAT'S HAPPENING TODAY**\n\nU.S. markets are closed for Labor Day, but Asia and Europe are moving\u2014Japan up 2.12%, South Korea up 4.61%. Oil and tech are both climbing because Middle East tensions (U.S. hit Iranian tankers) are pushing energy prices higher, which helps your oil holdings like **SU** and **PSX**.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (small oil & gas company)\n- Why it could make money: Earnings jumped 133% and institutions are loading up (+26.2%). When oil prices spike from geopolitical drama, small producers like this can see outsized profits. You're riding the Middle East tension tailwind.\n- Score breakdown: EPS growth +133%, Quality 96/100, institutional buying accelerating, analyst confidence rising\n- How much: $100 (buys ~0.5 shares at $190.21)\n- One risk: Tiny market cap ($0.3B) means it can swing wildly. If Middle East tensions ease, oil drops, and this crashes hard.\n\n**HIDDEN GEM PICK (high risk, 2-5x potential)**\n\n**WTI** \u2014 W&T Offshore Inc (Gulf of Mexico oil driller)\n- Why it could 2-5x: Already up 120% in 52 weeks, but earnings jumped 90% and it's still dirt cheap at $4.07. Same geopolitical tailwind as **PNRG**, but even more leverage to oil spikes. Tiny $0.6B cap = explosive upside if oil keeps climbing.\n- Score: 66/100\n- How much: $20 (high volatility play, keep it small)\n\n**ONE THING TO WATCH**\n\nMiddle East oil tensions could escalate or cool down this week\u2014watch for more U.S.-Iran rhetoric or ceasefire talk. Your entire energy position (**SU**, **PSX**, **PNRG**, **WTI**) moves on this news, so stay tuned to headlines daily.",
+  "briefing": "# BRIEF\n\n**WHAT'S HAPPENING TODAY**\n\nU.S. markets are closed for Labor Day, but Asian tech stocks are rallying hard (Samsung +5%, SoftBank +11%) while Middle East tensions spike oil prices. Your portfolio is heavy in semiconductors and energy \u2014 both are winning today, so you're positioned well for when U.S. markets reopen tomorrow.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (small oil & gas company)\n- Why it could make money: Earnings jumped 133% \u2014 meaning they're making way more profit per share. With Middle East tensions pushing oil prices up, energy companies like this print money. It's tiny ($0.3B market cap) so it can move fast.\n- Score breakdown: Quality is elite at 96/100. Big institutions are buying in (+26.2%). Analysts keep raising price targets.\n- How much: $100 buys ~0.52 shares at $190\n- One risk: Tiny companies are volatile. Oil price drops or geopolitical calm could crush it. You could lose half your money.\n\n**HIDDEN GEM PICK (high risk, could 2-5x)**\n\n**WTI** \u2014 W&T Offshore (small oil & gas explorer)\n- Why it could 2-5x: Already up 120% in a year. Earnings +90%. Sitting at just $4.07 \u2014 if oil stays hot or they hit a new well, this micro-cap could spike hard. Your $100 buys 24.5 shares; upside is wild.\n- Score: 66/100\n- How much: $50-75 (leave some dry powder if it dips more)\n\n**ONE THING TO WATCH**\n\nMiddle East oil tensions keep escalating with U.S. strikes on Iranian tankers. Watch crude prices this week \u2014 if they spike above $90/barrel, your energy holdings (**SU**, **PSX**, **FANG**) could rip higher, but a ceasefire would reverse it fast.",
   "portfolio": {
-    "goal": 10000,
-    "total_value": 13731.92,
+    "goal": 1000000.0,
+    "total_value": 77731.92,
     "trading_value": 13731.92,
-    "external_total": 0,
+    "external_total": 64000.0,
     "cash": 0,
     "invested": 13731.92,
     "cost_basis": 13188.83,
@@ -886,7 +886,29 @@
     }
   ],
   "earnings": [],
-  "macro": null,
+  "macro": {
+    "items": [
+      {
+        "label": "10-yr Treasury",
+        "value": "4.23%",
+        "change": "-0.02",
+        "direction": "down"
+      },
+      {
+        "label": "WTI Crude",
+        "value": "$91.93",
+        "change": "+0.45",
+        "direction": "up"
+      },
+      {
+        "label": "VIX",
+        "value": "14.15",
+        "change": "+0.00",
+        "direction": "flat"
+      }
+    ],
+    "note": "Rates or oil ticking up \u2014 a small headwind for the long-duration growth names. Nothing alarming, just less of a tailwind than yesterday."
+  },
   "track_record": {
     "calls_made": 171,
     "evaluated": 162,
@@ -895,6 +917,8 @@
     "avg_return": 0.0,
     "note": "Mixed: 0/162 calls green. Worth a hard look at what the high scores have in common before leaning on them."
   },
-  "external_accounts": null,
+  "external_accounts": {
+    "total": 64000.0
+  },
   "rules": null
 }
