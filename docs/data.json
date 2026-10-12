@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T16:04:44-05:00",
+  "generated_at": "2026-10-12T16:29:35-05:00",
   "market_status": "closed",
-  "briefing": "WHAT'S HAPPENING TODAY\n\nMarkets are up across the board \u2014 Nasdaq +0.6%, S&P 500 +0.6% \u2014 with energy leading the charge while semiconductors got hammered down 2.7%. The good news: geopolitical tensions just eased (Trump won't attack Iran before elections), which usually means more money flows into risky growth stocks like yours.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings jumped 133% YoY while energy stocks are rallying hard today. Institutions are buying it up (+26.2%), which signals smart money sees huge upside ahead.\n- Score breakdown: Quality score 96/100 (rock solid fundamentals), analysts are raising price targets, and tiny market cap ($300M) means room to run.\n- How much: Buy $90 worth (~0.47 shares at $190.21)\n- One risk: Tiny companies swing wildly. If oil prices tank or a bad earnings miss hits, this could drop 30% fast.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**WTI** \u2014 W&T Offshore (offshore oil & gas producer)\n- Why it could 2-5x: Already up 120% in 52 weeks, but earnings +90% and it's still only a $600M company. Energy tailwind + tiny size = explosive potential.\n- Score: 66/100\n- How much: $10 (test position \u2014 this is spicy)\n\nONE THING TO WATCH\n\nSpaceX just dropped $8B to grab wireless spectrum from Grain Management \u2014 this could reshape communications infrastructure and boost telecom/space stocks all week. Watch **RKLB** (which you own) and any comms plays for follow-through buying.",
+  "briefing": "# YOUR BRIEF \u2014 Monday, October 12, 2026\n\n## WHAT'S HAPPENING TODAY\nTech stocks got hammered today (Nasdaq down 0.44%) while energy and comms surged \u2014 **Micron** specifically tanked 3.9% over Chinese chip competition fears. For your portfolio, this is actually a gift: your heavy tech holdings (**AMD**, **KLAC**, **TSM**, **WDC**) are temporarily cheaper, and energy plays like **SU** and **PSX** are riding tailwinds from $106 oil.\n\n## BEST BUY TODAY ($100 BUDGET)\n**PNRG** \u2014 PrimeEnergy Resources (small-cap oil & gas producer)\n- Why it could make money: Earnings jumped 133% YoY while crude stays elevated above $106/barrel. Energy sector is leading today, and institutional money is flooding in (+26.2% buying). This tiny $300M company could see explosive growth if Middle East supply stays tight.\n- Score breakdown: EPS growth +133%, Quality 96/100 (rock-solid fundamentals), Institutions buying aggressively\n- How much: Buy $100 \u2014 gets you ~0.53 shares at $190.21\n- One risk: Energy prices crash if Middle East tensions ease or recession fears spike demand destruction\n\n## HIDDEN GEM PICK\n**WTI** \u2014 W&T Offshore Inc (oil producer, ultra-speculative)\n- Why it could 2-5x: Already up 120% in 52 weeks, but at only $0.6B market cap with 90% earnings growth, it's still flying under radar. Oil staying above $106 makes this a powder keg.\n- Score: 66/100\n- How much: $0 this week (save ammo; watch it)\n\n## ONE THING TO WATCH\n**Middle East supply disruptions** \u2014 if tensions escalate, oil could spike past $110+, turbocharging energy holdings like **SU**, **PSX**, and **PNRG**. Conversely, any ceasefire talks could crash these plays hard. Watch headlines closely.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 77991.27,
@@ -915,19 +915,19 @@
       {
         "label": "10-yr Treasury",
         "value": "5.24%",
-        "change": "+0.004",
+        "change": "+0.009",
         "direction": "up"
       },
       {
         "label": "WTI Crude",
-        "value": "$93.75",
-        "change": "+1.90",
+        "value": "$93.16",
+        "change": "+1.31",
         "direction": "up"
       },
       {
         "label": "VIX",
-        "value": "15.30",
-        "change": "+0.91",
+        "value": "15.21",
+        "change": "+0.37",
         "direction": "up"
       }
     ],
