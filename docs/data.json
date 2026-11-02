@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-02T15:32:09-06:00",
+  "generated_at": "2026-11-02T16:02:12-06:00",
   "market_status": "closed",
-  "briefing": "WHAT'S HAPPENING TODAY\n\nOil crashed 7% on Middle East peace hopes, which is pumping money into risky bets across the market \u2014 but tech stocks got hammered (Nasdaq down 1%), so investors are rotating OUT of expensive growth names INTO cheaper cyclical stocks. This is actually good timing for you since your portfolio is heavy in semiconductors and tech that got beaten down.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (small oil & gas exploration company)\n- Why it could make money: Earnings exploded 133% YoY. With oil stabilizing and Middle East geopolitical risk easing, smaller energy players like this typically get re-rated higher by the market. It's micro-cap (only $300M), so institutional buying (+26.2%) means real money is moving in.\n- Score breakdown: 75/100 overall. Quality is elite (96/100 \u2014 rock-solid fundamentals). Institutions aggressively accumulating. Analysts are raising estimates.\n- How much: Spend your full $100 (buys you 0.5 shares at $190)\n- One risk: Micro-cap means low liquidity \u2014 harder to sell fast if something breaks. Oil price swings could hurt badly.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**WTI** \u2014 W&T Offshore (Gulf of Mexico oil producer)\n- Why it could 2-5x: Up 120% in 52 weeks already, but still only $600M market cap. Today's oil ceasefire = tailwind. EPS up 90%, high growth stability (84/100). Tiny float = explosive moves.\n- Score: 66/100\n- How much: $20-30 (allocate smaller since it's spicy)\n\nONE THING TO WATCH\n\n**Marvell's $115B Lumentum acquisition** closes this week \u2014 if it stumbles, semiconductor stocks tank further. Watch for regulatory approval updates; any green light = tech relief rally.",
+  "briefing": "# STOCK BRIEF \u2014 Monday, Nov 2, 2026\n\n**WHAT'S HAPPENING TODAY**\nTech stocks are getting crushed (Nasdaq down 1.07%) while energy is rallying hard because oil prices just tanked 7% on Middle East ceasefire hopes. Your portfolio is heavy on semiconductors and energy, so you're seeing mixed vibes \u2014 some winners, some pain.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (small oil & gas producer)\n- Why it could make money: Their earnings just exploded +133% and institutions are piling in (+26.2% buying). Oil got cheaper today, which hurts short-term, but PNRG's fundamentals are screaming \u2014 they're printing cash.\n- Score breakdown: Quality 96/100 (rock-solid company), EPS growth monster, analysts getting more bullish\n- How much: $100 (buys you about 0.5 shares at $190)\n- One risk: Tiny market cap ($300M) means it's volatile; if oil rallies suddenly, sentiment could flip\n\n**HIDDEN GEM PICK** (high risk, high reward)\n\n**WTI** \u2014 W&T Offshore Inc (deep-water oil producer)\n- Why it could 2-5x: Up 120% in 52 weeks already, but EPS grew 90% and it's still flying under the radar. Energy sector tailwinds + ceasefire = upside surprise potential.\n- Score: 66/100\n- How much: Pass this week (save ammo \u2014 you're out of budget)\n\n**ONE THING TO WATCH**\nMiddle East ceasefire talks are the wildcard this week \u2014 if they collapse, oil spikes and your energy holdings (SU, PSX, FANG) could rip higher. Watch for headlines Tuesday/Wednesday; this could be a 5%+ swing day.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 76301.54,
@@ -946,20 +946,20 @@
     "items": [
       {
         "label": "10-yr Treasury",
-        "value": "4.89%",
-        "change": "-0.04",
+        "value": "4.896%",
+        "change": "-0.033",
         "direction": "down"
       },
       {
         "label": "WTI Crude",
-        "value": "$96.50",
-        "change": "-7.62",
+        "value": "$100.55",
+        "change": "-3.57",
         "direction": "down"
       },
       {
         "label": "VIX",
-        "value": "19.42",
-        "change": "+2.22",
+        "value": "21.15",
+        "change": "+1.73",
         "direction": "up"
       }
     ],
