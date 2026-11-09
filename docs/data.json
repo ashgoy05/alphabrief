@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09T16:05:38-06:00",
+  "generated_at": "2026-11-09T16:48:30-06:00",
   "market_status": "closed",
-  "briefing": "WHAT'S HAPPENING TODAY\n\nTech and energy are getting hammered but fundamentals are strengthening \u2014 your portfolio is up huge because you rode the winners (AMD +162%!), now it's time to deploy that $100 on fresh upside before these beaten-down stocks bounce. Institutions are quietly buying the dips, which is your green light.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings up 133% YoY while oil prices stay elevated; tiny $300M company means huge upside if it scales even slightly. This is a sleeping giant.\n- Score breakdown: Quality 96/100 (solid fundamentals), institutions adding +26.2% (smart money agrees), analyst scores rising (they're waking up to it)\n- How much: $100 (buys ~0.5 shares at $190)\n- One risk: Small-cap energy can tank fast if oil prices crash or they miss exploration targets \u2014 volatile, but that's why you get paid.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**WTI** \u2014 W&T Offshore Inc (offshore oil production)\n- Why it could 2-5x: Up 120% in 52 weeks, EPS +90%, trading at $4.07 means one good discovery or production ramp could double it again. Institutions loading up.\n- Score: 66/100\n- How much: $50 (buys 12 shares)\n\nONE THING TO WATCH\n\nAI chip shortage fears are easing as NVIDIA and AMD show production ramping \u2014 watch whether semiconductor stocks bounce back this week, which would signal your SIP alert stocks (**NVDA**, **AVGO**, **CRWD**) are near bottom and ready for adds.",
+  "briefing": "WHAT'S HAPPENING TODAY\nMarket crushed it today (+2.7% Nasdaq) because oil crashed and everyone recovered from last week's panic \u2014 this kind of broad rally is good for growth stocks like what you own. Your portfolio should be riding this wave higher, especially **AMD** and **TSM** which benefit when chip demand bounces back.\n\nBEST BUY TODAY ($100 budget)\n**PNRG** \u2014 PrimeEnergy Resources (small oil & gas company)\n- Why it could make money: Earnings jumped 133% and institutions are loading up (+26.2%). With oil stabilizing around $92/barrel after today's drop, smaller producers like this become profitable goldmines. Analysts are upgrading it.\n- Score breakdown: 96/100 quality (rock-solid fundamentals), 26.2% institutional buying (smart money moving in), rising analyst ratings\n- How much: $100 (buys ~0.5 shares at $190)\n- One risk: It's tiny ($300M market cap) and oil price swings could hurt fast. If oil drops below $80, earnings disappear.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n**WTI** \u2014 W&T Offshore (offshore oil production)\n- Why it could 2-5x: Already up 120% in 52 weeks and EPS up 90%. It's a $600M company that prints cash when oil stays above $85. Today's oil move proves the thesis works.\n- Score: 66/100\n- How much: $0 this week (hold cash, but watch at $3.80)\n\nONE THING TO WATCH\n**Nvidia's CEO drama** could spook chip stocks all week \u2014 that $192B evaporation shows how fast sentiment shifts. Watch if **AVGO** and **CRWD** bounce back or if the investigation triggers more selling in semiconductors.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 75892.87,
@@ -954,13 +954,13 @@
     "items": [
       {
         "label": "10-yr Treasury",
-        "value": "4.83%",
-        "change": "-0.026",
-        "direction": "down"
+        "value": "4.88%",
+        "change": "+0.02",
+        "direction": "up"
       },
       {
         "label": "WTI Crude",
-        "value": "$86.87",
+        "value": "$87.30",
         "change": "-3.96",
         "direction": "down"
       },
