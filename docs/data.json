@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T15:47:30-06:00",
+  "generated_at": "2026-11-16T16:40:50-06:00",
   "market_status": "closed",
-  "briefing": "WHAT'S HAPPENING TODAY\n\nTech stocks are getting hammered today because Nvidia's CEO just left and the government's tightening chip exports to China \u2014 basically killing the AI party vibe. Your portfolio is heavy on semiconductor winners, so this dip actually creates a buying opportunity if you've got dry powder.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: EPS jumped 133% \u2014 this company is printing cash. Energy's unsexy right now while everyone chases AI, so it's flying under the radar. Oil's not going anywhere, and this tiny $300M company has real earnings.\n- Score breakdown: Quality 96/100 (rock-solid fundamentals), institutions buying hard (+26.2%), analyst scores climbing\n- How much: $100 (buys ~0.5 shares at $190)\n- One risk: Energy is cyclical \u2014 if oil prices crash, so does this stock. Also it's tiny, so less liquidity (harder to sell fast).\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**WTI** \u2014 W&T Offshore Inc (offshore oil production)\n- Why it could 2-5x: Up 120% in a year, EPS +90%, and it's only a $600M company. If energy stays hot and they execute, this flies. Pure energy play while everyone's distracted by AI.\n- Score: 66/100\n- How much: $50-75 (buys 12-18 shares at $4.07)\n\nONE THING TO WATCH\n\n**Anthropic IPO drops this week** \u2014 this is the AI counter-narrative moment. If it pops, it reignites AI enthusiasm and saves your tech holdings. If it flops, the sector stays cold longer and your dip-buy opportunities get better.",
+  "briefing": "WHAT'S HAPPENING TODAY\n\nThe chip sector is getting hammered\u2014Nvidia's CEO just quit and earnings drop tomorrow, so investors are bailing on AI stocks across the board. Your portfolio is heavy in semiconductors (**AMD**, **KLAC**, **TSM**), so today's pain is real, but this panic creates a buying opportunity for patient risk-takers like you.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings up 133% while oil demand stays strong. This tiny company is printing cash and flying under most investors' radar.\n- Score breakdown: Highest quality (96/100), institutions are buying hard (+26.2%), and analysts keep raising their price targets\u2014classic smart-money signal.\n- How much: $100 gets you ~0.5 shares at $190/share; this is your bold small-cap bet.\n- One risk: Tiny $0.3B market cap means lower liquidity (harder to sell quickly) and energy prices could collapse if economy weakens.\n\nHIDDEN GEM PICK\n\n**AMN** \u2014 AMN Healthcare Services (staffing for hospitals and healthcare)\n- Why it could 2-5x: EPS up 95%, essentially perfect quality score (99/100), and healthcare staffing is structural\u2014aging population = permanent demand. Barely $1.2B market cap.\n- Score: 69/100\n- How much: Skip this week; wait for a bigger dip. When it drops 15%+, go hard.\n\nONE THING TO WATCH\n\n**Nvidia earnings Tuesday** could spike or crash the entire chip sector 5-10% either way\u2014your **KLAC**, **TSM**, and **AMD** holdings will move with it. If CEO replacement news is positive, chips rip higher; if it's messy, expect more pain before the bounce.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 75482.07,
@@ -930,24 +930,24 @@
     "items": [
       {
         "label": "10-yr Treasury",
-        "value": "5.14%",
-        "change": "-0.01",
-        "direction": "down"
+        "value": "5.13%",
+        "change": "+0.80",
+        "direction": "up"
       },
       {
         "label": "WTI Crude",
-        "value": "$87.90",
-        "change": "-0.70",
+        "value": "$85.54",
+        "change": "-3.02",
         "direction": "down"
       },
       {
         "label": "VIX",
-        "value": "23.50",
-        "change": "+4.20",
-        "direction": "up"
+        "value": "Data not found",
+        "change": "N/A",
+        "direction": "flat"
       }
     ],
-    "note": "Yields and oil easing \u2014 the friendly backdrop for growth and tech. Lower rates make future earnings worth more today, which is what your watchlist leans on."
+    "note": "Rates or oil ticking up \u2014 a small headwind for the long-duration growth names. Nothing alarming, just less of a tailwind than yesterday."
   },
   "track_record": {
     "calls_made": 321,
