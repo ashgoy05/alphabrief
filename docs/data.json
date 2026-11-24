@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-24T16:06:05-06:00",
+  "generated_at": "2026-11-24T16:51:15-06:00",
   "market_status": "closed",
-  "briefing": "# YOUR PLAY TODAY\n\n**WHAT'S HAPPENING TODAY**\n\nAI and chip stocks are getting hammered today while safe stocks like healthcare are winning \u2014 this is the opposite of what's been hot all year. Your portfolio is packed with chip/AI winners (AMD, TSM, KLAC) so this dip is temporary noise, but it means quality value plays are suddenly cheaper.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration)\n- Why it could make money: Earnings up 133% year-over-year. That's real cash. Energy stocks are flying under the radar while everyone chases AI, and this tiny $300M company is printing profits.\n- Score breakdown: EPS crushing it (+133%), Quality score near-perfect (96/100), and institutions are quietly buying 26% more shares \u2014 smart money sees something.\n- How much: $100 (buys ~0.5 shares at $190)\n- One risk: Small-cap = wild swings. If oil prices crash, this tanks fast. But your portfolio is already risky anyway.\n\n**HIDDEN GEM PICK (high risk, could 2-5x)**\n\n**WTI** \u2014 W&T Offshore Inc (oil production)\n- Why it could 2-5x: Up 120% in 52 weeks already, but still only a $600M company. EPS +90%, and energy is rotating hot as AI cools. Classic hidden gem play.\n- Score: 66/100\n- How much: $50 (buys ~12 shares at $4.07)\n\n**ONE THING TO WATCH**\n\nSanofi just dropped $41B on Insmed \u2014 big pharma is on an acquisition spree. Watch if this sparks a healthcare M&A wave this week; biotech/healthcare stocks could rip.",
+  "briefing": "# BRIEF \u2014 Tuesday, Nov 24, 2026\n\n**WHAT'S HAPPENING TODAY**\n\nTech stocks are pulling back hard after Monday's AI rally \u2014 Nvidia down 5.86%, Nasdaq down 1.48% \u2014 which means growth names are getting cheaper if you believe in them long-term. Your portfolio is heavy on tech winners (AMD +113%, KLAC +39%) so this dip is normal volatility for the sector.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings up 133% year-over-year while oil demand stays strong; tiny $300M company trading at a discount to peers\n- Score breakdown: Quality 96/100 (rock-solid fundamentals), Institutions buying hard (+26.2%), Analyst scores rising (people are noticing it)\n- How much: Buy $100 (3 shares at $190)\n- One risk: Small-cap energy stocks swing wildly on commodity prices and geopolitics; one bad oil news day could hurt\n\n**HIDDEN GEM PICK** (high risk, could 2-5x)\n\n**WTI** \u2014 W&T Offshore Inc (oil & gas production in the Gulf of Mexico)\n- Why it could 2-5x: Up 120% in 52 weeks already, earnings up 90%, super cheap $600M valuation in an energy rally environment\n- Score: 66/100\n- How much: $50 (12 shares at $4.07)\n- Reality check: This is volatile \u2014 energy commodity swings could crush it, but upside is real if oil stays strong\n\n**ONE THING TO WATCH**\n\nSanofi's $2.4B deal for Insmed lifted healthcare stocks today, signaling M&A appetite is back. Watch if this trend spreads to tech \u2014 your holdings in smaller chips (LRCX, TER) could get bought at premium prices if the consolidation wave continues.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 74717.22,
@@ -930,27 +930,21 @@
     "items": [
       {
         "label": "10-yr Treasury",
-        "value": "4.93%",
-        "change": "+0.01",
-        "direction": "up"
-      },
-      {
-        "label": "S&P 500",
-        "value": "7201.09",
-        "change": "-36.08",
+        "value": "4.91%",
+        "change": "-0.01",
         "direction": "down"
       },
       {
-        "label": "Nasdaq",
-        "value": "23733.54",
-        "change": "-356.02",
-        "direction": "down"
+        "label": "WTI Crude",
+        "value": "$81.44",
+        "change": "+1.58",
+        "direction": "up"
       },
       {
-        "label": "Dow Jones",
-        "value": "50018.70",
-        "change": "+423.39",
-        "direction": "up"
+        "label": "VIX",
+        "value": "26.36",
+        "change": "-0.98",
+        "direction": "down"
       }
     ],
     "note": "Yields and oil easing \u2014 the friendly backdrop for growth and tech. Lower rates make future earnings worth more today, which is what your watchlist leans on."
