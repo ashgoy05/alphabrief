@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-23T17:36:19-06:00",
+  "generated_at": "2026-11-23T18:30:05-06:00",
   "market_status": "closed",
-  "briefing": "# PORTFOLIO BRIEF \u2014 Monday, Nov 23, 2026\n\n**WHAT'S HAPPENING TODAY**\nMarket's rewarding companies with strong earnings and institutional money flowing in \u2014 your portfolio's already crushing it with mega-wins like AMD (+134%). Today's a good day to deploy that $100 on proven growth plays that institutions are loading up on.\n\n**BEST BUY TODAY ($100 budget)**\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings up 133% year-over-year while oil demand stays strong. This isn't hype \u2014 it's real profit growth. Small-cap energy plays like this can rip when the sector's hot.\n- Score breakdown: Quality score is elite at 96/100, institutions buying hard (+26.2%), and analyst sentiment improving. That combo = smart money sees something.\n- How much: $100 (buy ~0.5 shares at $190)\n- One risk: Energy is cyclical \u2014 if oil prices crash, so does PNRG. Also tiny market cap ($300M) means it swings harder than your AMD.\n\n**HIDDEN GEM PICK (high risk, could 2-5x)**\n**WTI** \u2014 W&T Offshore Inc (oil & gas production)\n- Why it could 2-5x: Up 120% in 52 weeks already, but it's still micro-cap at $600M. EPS +90%, and if oil stays elevated through 2027, this could easily double again. Tiny float = explosive moves.\n- Score: 66/100\n- How much: Skip for now \u2014 save firepower for next week's budget\n\n**ONE THING TO WATCH**\nCRWD (CrowdStrike) crashed 70.9% \u2014 that's your signal that cybersecurity stocks are getting obliterated. Watch if this spreads to other software plays in your portfolio like **V** or other tech holdings this week.",
+  "briefing": "# PORTFOLIO BRIEF \u2014 Tuesday, Nov 24, 2026\n\n**WHAT'S HAPPENING TODAY**\n\nTech sector is wobbling with NVDA and CRWD down hard, but your holdings (AMD, KLAC, TSM) are still up huge, so you're riding the winners. This is a good week to deploy that $100 into fresh growth before earnings season heats up.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration company)\n- Why it could make money: EPS up 133% means they're printing cash fast; institutions are buying 26.2% more shares, which means smart money is loading up before the next leg up.\n- Score breakdown: Quality 96/100 (rock-solid fundamentals), Institutions buying heavy (+26.2%), Analyst score rising (they keep raising targets).\n- How much: $100 gets you ~0.5 shares at $190.21\n- One risk: Tiny market cap ($0.3B) means low liquidity \u2014 could be hard to sell fast if you need out. Oil prices also swing wildly.\n\n**HIDDEN GEM PICK (high risk, could 2-5x)**\n\n**WTI** \u2014 W&T Offshore Inc (oil production & drilling)\n- Why it could 2-5x: Up 120% in 52 weeks, EPS +90%, and trading at $4.07 on a $0.6B cap. Still super cheap with real cash generation. Oil upside could send this flying.\n- Score: 66/100\n- How much: $45\u201350 (lots of shares, easy entry)\n\n**ONE THING TO WATCH**\n\nOPEC meetings this week could move energy plays like **PNRG** and **WTI**. Oil production cuts = higher prices = these stocks spike.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 75209.69,
@@ -930,20 +930,20 @@
     "items": [
       {
         "label": "10-yr Treasury",
-        "value": "4.92%",
-        "change": "+0.01",
+        "value": "4.96%",
+        "change": "+0.04",
         "direction": "up"
       },
       {
         "label": "WTI Crude",
-        "value": "$83.57",
-        "change": "-0.37",
+        "value": "$82.40",
+        "change": "-1.01",
         "direction": "down"
       },
       {
         "label": "VIX",
-        "value": "27.39",
-        "change": "-8.50",
+        "value": "31.23",
+        "change": "-4.66",
         "direction": "down"
       }
     ],
