@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T15:22:08-06:00",
+  "generated_at": "2026-11-25T16:04:13-06:00",
   "market_status": "closed",
-  "briefing": "WHAT'S HAPPENING TODAY\nTech stocks are getting hammered (especially AI chips) as investors worry companies are spending too much money on AI without clear profits yet. This is actually good for you \u2014 your portfolio is diversified away from pure tech, so you're feeling less pain than the Nasdaq crowd.\n\nBEST BUY TODAY ($100 budget)\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Earnings up 133% while energy is rebounding as money flees tech. Small company ($300M) with huge upside if oil stays strong.\n- Score breakdown: Quality is elite (96/100), big institutions are buying hard (+26.2%), and analysts keep raising targets.\n- How much: $100 (buys you about half a share, but that's fine \u2014 it's a small position)\n- One risk: Tiny market cap means it swings wildly. Oil price drops = stock tanks fast. This isn't boring money.\n\nHIDDEN GEM PICK\n**WTI** \u2014 W&T Offshore Inc (offshore oil drilling)\n- Why it could 2-5x: Up 120% already in 52 weeks, earnings up 90%, and energy is having a moment. Super tiny ($600M market cap) = massive upside if drilling demand accelerates.\n- Score: 66/100\n- How much: $0 this week (you're maxed at $100 going to PNRG, but watch it)\n\nONE THING TO WATCH\nAI spending fears might intensify if Nvidia's earnings disappoint next month \u2014 watch for any CEO commentary on actual AI profitability. If that fear spreads, energy and boring defensive stocks (like your healthcare holdings) will rally harder.",
+  "briefing": "**WHAT'S HAPPENING TODAY**\n\nTech and chip stocks got hammered today (Nasdaq down almost 4%) because investors are questioning whether AI spending is actually worth the money right now \u2014 classic market panic. Your portfolio is heavy in semiconductors and tech, so you're feeling the pain, but this dip is exactly when risk-takers make money.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: EPS exploded 133% \u2014 these guys are printing cash while energy prices stay elevated. Institutions are buying like crazy (+26.2%), which means smart money sees value here.\n- Score breakdown: Quality 96/100 (super solid fundamentals), Institutions buying hard, Analysts raising price targets\n- How much: $100 gets you ~0.5 shares at $190/share\n- One risk: Oil prices could crash if the economy tanks, and it's a tiny company ($300M market cap) so it's volatile\n\n**HIDDEN GEM PICK (high risk, could 2-5x)**\n\n**WTI** \u2014 W&T Offshore Inc (offshore oil production)\n- Why it could 2-5x: Up 120% in 52 weeks and still dirt cheap at $4/share. EPS +90%, and energy is the only sector winning today. Micro-cap plays ($600M) can move fast.\n- Score: 66/100\n- How much: $50-75 (let it ride, stay nimble)\n\n**ONE THING TO WATCH**\n\nNVIDIA's CEO just got hit with a code-of-conduct violation while geopolitical chip tensions are rising \u2014 this could tank the stock more if it gets messy legally or politically. Watch earnings calls next week for damage control and whether they're actually making money off all this AI hype or just spending like crazy.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 74607.44,
@@ -923,23 +923,23 @@
       {
         "label": "10-yr Treasury",
         "value": "4.84%",
-        "change": "-0.07",
+        "change": "-0.064",
         "direction": "down"
       },
       {
         "label": "WTI Crude",
-        "value": "$81.15",
-        "change": "-0.90",
-        "direction": "down"
+        "value": "$83.44",
+        "change": "+1.69",
+        "direction": "up"
       },
       {
         "label": "VIX",
-        "value": "30.26",
-        "change": "+3.90",
+        "value": "27.77",
+        "change": "+5.35",
         "direction": "up"
       }
     ],
-    "note": "Yields and oil easing \u2014 the friendly backdrop for growth and tech. Lower rates make future earnings worth more today, which is what your watchlist leans on."
+    "note": "Rates or oil ticking up \u2014 a small headwind for the long-duration growth names. Nothing alarming, just less of a tailwind than yesterday."
   },
   "track_record": {
     "calls_made": 342,
