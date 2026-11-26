@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26T15:09:03-06:00",
+  "generated_at": "2026-11-26T16:02:17-06:00",
   "market_status": "closed",
-  "briefing": "# BRIEF \u2014 Nov 26, 2026\n\n**WHAT'S HAPPENING TODAY**\n\nUS markets are closed for Thanksgiving, but Asian stocks are rallying hard after Wednesday's scary dip when the Nasdaq almost entered bear market territory (that means down 20% from recent highs). This is good news for your portfolio \u2014 it signals scared money is buying the dip, which is exactly what growth investors want to see.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration)\n- Why it could make money: Earnings up 133% year-over-year. When a company's profits nearly triple, the stock usually follows. Energy is rebounding as markets stabilize.\n- Score breakdown: Quality score 96/100 (rock solid business), institutions buying heavily (+26.2%), analyst ratings climbing\n- How much: $100 buys you about 0.5 shares \u2014 go for it\n- One risk: Tiny market cap ($0.3B) means less liquidity (harder to sell quickly if you panic) and more price swings\n\n**HIDDEN GEM PICK**\n\n**AMN** \u2014 AMN Healthcare Services (staffing/temp healthcare workers)\n- Why it could 2-5x: EPS +95%, rock-solid quality (99/100), and the healthcare staffing shortage is real. Institutions are quietly loading up (+24.8%). Small caps with big earnings growth tend to rip.\n- Score: 69/100\n- How much: $50 for 1.6 shares\n\n**ONE THING TO WATCH**\n\nNew US tariff proposals just dropped on the EU and China \u2014 this could spike volatility in tech stocks (chip makers especially). Watch **CRWD** and **NVDA** closely; they're down huge but tariff wars could make semiconductors even messier before they get better.",
+  "briefing": "WHAT'S HAPPENING TODAY\n\nTech stocks are getting hammered because people think AI companies are overpriced, while energy and infrastructure are holding up better. For your portfolio, this is actually good \u2014 your energy holdings (**AMD**, **SU**, **PSX**, **PWR**) are cushioning the damage, but you've got exposure to the AI downturn through semiconductor plays.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: Energy sector is hot right now with new tariff talk and oil demand. PNRG had earnings jump 133% \u2014 that's explosive. Institutions are loading up (+26.2%), which means smart money sees fuel left in the tank.\n- Score breakdown: Quality is elite at 96/100, earnings growth is off the charts, and big investors are betting on it. Analyst scores rising = momentum building.\n- How much: $100 (buy ~0.5 shares at $190)\n- One risk: Tiny company ($300M market cap) means it swings hard. Oil price drops = stock crashes. High volatility \u2014 not for the faint of heart.\n\nHIDDEN GEM PICK\n\n**WTI** \u2014 W&T Offshore Inc (deep-water oil production in Gulf of Mexico)\n- Why it could 2-5x: Up 120% in 52 weeks already, but still trades at $4.07 on a $600M market cap. Energy tailwinds + tariff uncertainty = potential rally. EPS up 90% \u2014 real earnings, not hype.\n- Score: 66/100\n- How much: Pass this week (use full $100 on **PNRG**'s better score)\n\nONE THING TO WATCH\n\nFed rate hike expected in December + new China tariffs could tank tech stocks harder but boost energy. Watch how **CRWD** (down 70.8%) and semiconductors trade Friday \u2014 if they bounce, tech bottom might be in.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 74606.92,
@@ -928,14 +928,14 @@
       },
       {
         "label": "WTI Crude",
-        "value": "$84.24",
+        "value": "$82.57",
         "change": "+0.52",
         "direction": "up"
       },
       {
         "label": "VIX",
-        "value": "28.29",
-        "change": "+1.96",
+        "value": "31.17",
+        "change": "+4.83",
         "direction": "up"
       }
     ],
