@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-25T16:04:13-06:00",
+  "generated_at": "2026-11-26T15:09:03-06:00",
   "market_status": "closed",
-  "briefing": "**WHAT'S HAPPENING TODAY**\n\nTech and chip stocks got hammered today (Nasdaq down almost 4%) because investors are questioning whether AI spending is actually worth the money right now \u2014 classic market panic. Your portfolio is heavy in semiconductors and tech, so you're feeling the pain, but this dip is exactly when risk-takers make money.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: EPS exploded 133% \u2014 these guys are printing cash while energy prices stay elevated. Institutions are buying like crazy (+26.2%), which means smart money sees value here.\n- Score breakdown: Quality 96/100 (super solid fundamentals), Institutions buying hard, Analysts raising price targets\n- How much: $100 gets you ~0.5 shares at $190/share\n- One risk: Oil prices could crash if the economy tanks, and it's a tiny company ($300M market cap) so it's volatile\n\n**HIDDEN GEM PICK (high risk, could 2-5x)**\n\n**WTI** \u2014 W&T Offshore Inc (offshore oil production)\n- Why it could 2-5x: Up 120% in 52 weeks and still dirt cheap at $4/share. EPS +90%, and energy is the only sector winning today. Micro-cap plays ($600M) can move fast.\n- Score: 66/100\n- How much: $50-75 (let it ride, stay nimble)\n\n**ONE THING TO WATCH**\n\nNVIDIA's CEO just got hit with a code-of-conduct violation while geopolitical chip tensions are rising \u2014 this could tank the stock more if it gets messy legally or politically. Watch earnings calls next week for damage control and whether they're actually making money off all this AI hype or just spending like crazy.",
+  "briefing": "# BRIEF \u2014 Nov 26, 2026\n\n**WHAT'S HAPPENING TODAY**\n\nUS markets are closed for Thanksgiving, but Asian stocks are rallying hard after Wednesday's scary dip when the Nasdaq almost entered bear market territory (that means down 20% from recent highs). This is good news for your portfolio \u2014 it signals scared money is buying the dip, which is exactly what growth investors want to see.\n\n**BEST BUY TODAY ($100 budget)**\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration)\n- Why it could make money: Earnings up 133% year-over-year. When a company's profits nearly triple, the stock usually follows. Energy is rebounding as markets stabilize.\n- Score breakdown: Quality score 96/100 (rock solid business), institutions buying heavily (+26.2%), analyst ratings climbing\n- How much: $100 buys you about 0.5 shares \u2014 go for it\n- One risk: Tiny market cap ($0.3B) means less liquidity (harder to sell quickly if you panic) and more price swings\n\n**HIDDEN GEM PICK**\n\n**AMN** \u2014 AMN Healthcare Services (staffing/temp healthcare workers)\n- Why it could 2-5x: EPS +95%, rock-solid quality (99/100), and the healthcare staffing shortage is real. Institutions are quietly loading up (+24.8%). Small caps with big earnings growth tend to rip.\n- Score: 69/100\n- How much: $50 for 1.6 shares\n\n**ONE THING TO WATCH**\n\nNew US tariff proposals just dropped on the EU and China \u2014 this could spike volatility in tech stocks (chip makers especially). Watch **CRWD** and **NVDA** closely; they're down huge but tariff wars could make semiconductors even messier before they get better.",
   "portfolio": {
     "goal": 1000000.0,
-    "total_value": 74607.44,
-    "trading_value": 10607.44,
+    "total_value": 74606.92,
+    "trading_value": 10606.92,
     "external_total": 64000.0,
     "cash": 0,
-    "invested": 10607.44,
+    "invested": 10606.92,
     "cost_basis": 13188.83,
-    "total_gain": -2581.39,
-    "total_gain_pct": -19.57,
+    "total_gain": -2581.91,
+    "total_gain_pct": -19.58,
     "day_change": 0.0,
     "day_change_pct": 0.0,
     "concentration_warnings": []
@@ -382,10 +382,10 @@
       "name": "FSPTX",
       "shares": 1.978,
       "entry": 43.09,
-      "price": 48.44,
-      "value": 95.81,
+      "price": 48.03,
+      "value": 95.0,
       "change_pct": 0,
-      "gain_pct": 12.42,
+      "gain_pct": 11.46,
       "sector": null,
       "flag": null
     },
@@ -490,10 +490,10 @@
       "name": "FZROX",
       "shares": 3.445,
       "entry": 23.46,
-      "price": 25.14,
-      "value": 86.61,
+      "price": 25.11,
+      "value": 86.5,
       "change_pct": 0,
-      "gain_pct": 7.16,
+      "gain_pct": 7.03,
       "sector": null,
       "flag": null
     },
@@ -598,10 +598,10 @@
       "name": "FXAIX",
       "shares": 1.268,
       "entry": 255.87,
-      "price": 250.57,
-      "value": 317.72,
+      "price": 249.94,
+      "value": 316.92,
       "change_pct": 0,
-      "gain_pct": -2.07,
+      "gain_pct": -2.32,
       "sector": null,
       "flag": null
     },
@@ -646,12 +646,12 @@
       "name": "FBMPX",
       "shares": 0.645,
       "entry": 139.89,
-      "price": 131.59,
-      "value": 84.88,
+      "price": 132.93,
+      "value": 85.74,
       "change_pct": 0,
-      "gain_pct": -5.93,
+      "gain_pct": -4.98,
       "sector": null,
-      "flag": "dip-buy"
+      "flag": null
     },
     {
       "ticker": "WM",
@@ -682,10 +682,10 @@
       "name": "FSUTX",
       "shares": 0.597,
       "entry": 139.55,
-      "price": 126.41,
-      "value": 75.47,
+      "price": 126.97,
+      "value": 75.8,
       "change_pct": 0,
-      "gain_pct": -9.42,
+      "gain_pct": -9.01,
       "sector": null,
       "flag": "dip-buy"
     },
@@ -923,26 +923,26 @@
       {
         "label": "10-yr Treasury",
         "value": "4.84%",
-        "change": "-0.064",
+        "change": "-0.06",
         "direction": "down"
       },
       {
         "label": "WTI Crude",
-        "value": "$83.44",
-        "change": "+1.69",
+        "value": "$84.24",
+        "change": "+0.52",
         "direction": "up"
       },
       {
         "label": "VIX",
-        "value": "27.77",
-        "change": "+5.35",
+        "value": "28.29",
+        "change": "+1.96",
         "direction": "up"
       }
     ],
     "note": "Rates or oil ticking up \u2014 a small headwind for the long-duration growth names. Nothing alarming, just less of a tailwind than yesterday."
   },
   "track_record": {
-    "calls_made": 342,
+    "calls_made": 345,
     "evaluated": 333,
     "worked": 0,
     "hit_rate": 0.0,
