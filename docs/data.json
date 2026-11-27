@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T14:52:44-06:00",
-  "market_status": "open",
-  "briefing": "WHAT'S HAPPENING TODAY\nTech stocks are on fire after Nvidia's CEO restart sparked a 31% jump, pulling the whole market higher \u2014 this is exactly the momentum environment your portfolio loves. All 11 sectors gained today, which means money is flowing broadly into growth, not just defensive plays.\n\nBEST BUY TODAY ($100 budget)\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration and production)\n- Why it could make money: EPS (earnings per share) jumped 133% \u2014 that's insane growth. Institutions are loading up (+26.2%), which means smart money sees something cheap here. Energy is outperforming today and analysts keep raising their price targets.\n- Score breakdown: Quality 96/100 (rock-solid fundamentals), Growth 40 (huge earnings jump), Institutions buying hard (Smart Money 20)\n- How much: $100 (buys ~0.5 shares at $190.21)\n- One risk: Small cap ($0.3B market cap) = more volatile. If oil prices tank or they miss earnings, it could swing hard.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n**WTI** \u2014 W&T Offshore Inc (oil & gas production, shallow water drilling)\n- Why it could 2-5x: Up 120% in 52 weeks already, but trading cheap. EPS +90%, and at $4.07/share it's tiny ($0.6B). Huge upside if energy keeps rallying. Institutions are quietly buying.\n- Score: 66/100\n- How much: $50 (buys ~12 shares)\n\nONE THING TO WATCH\nCrowdStrike's $43.9B acquisition of Zscaler signals mega consolidation in cybersecurity \u2014 watch if this sparks a M&A wave that lifts smaller cyber plays you don't own yet. Also keep **CRWD** on your radar since it's down 69.8% and could bounce hard on acquisition momentum.",
+  "generated_at": "2026-11-27T15:45:20-06:00",
+  "market_status": "closed",
+  "briefing": "WHAT'S HAPPENING TODAY\n\nThe whole market bounced back hard today\u2014Nasdaq up 2.31%\u2014because investors are chasing AI and chip stocks again after they got beaten down. This is perfect timing for your portfolio since you're heavy in semiconductors and tech, and those dips you're sitting on (like **MU** down 38.7%) could start recovering.\n\nBEST BUY TODAY ($100 budget)\n\n**PNRG** \u2014 PrimeEnergy Resources (oil & gas exploration company)\n- Why it could make money: Earnings up 133% means they're printing cash right now. Energy stocks are outperforming today and institutions are loading up (+26.2%)\u2014when the smart money moves, it usually keeps moving.\n- Score breakdown: Quality 96/100 (rock solid fundamentals), institutions buying aggressively, analysts upgrading the stock\n- How much: $100 (buys ~0.5 shares at $190)\n- One risk: Oil prices are volatile\u2014if crude tanks, so does **PNRG**. Also it's tiny ($0.3B market cap), so less liquid.\n\nHIDDEN GEM PICK (high risk, could 2-5x)\n\n**WTI** \u2014 W&T Offshore Inc (independent oil & gas producer)\n- Why it could 2-5x: Up 120% in 52 weeks, earnings up 90%, and it's still micro-cap at $0.6B. Energy is in favor right now. Small caps amplify moves both ways.\n- Score: 66/100\n- How much: $50-75 (buys ~12-18 shares at $4.07). This is your moonshot bet.\n\nONE THING TO WATCH\n\n**CrowdStrike's $43.9B acquisition of Zscaler** signals cybersecurity is consolidating\u2014watch if **CRWD** (down 69.8%) bounces back as investors see it as a validation of the sector's value. If it recovers even 20%, your dip-buy watch list gets a win.",
   "portfolio": {
     "goal": 1000000.0,
     "total_value": 74962.98,
@@ -936,14 +936,14 @@
       },
       {
         "label": "WTI Crude",
-        "value": "$84.95",
-        "change": "+1.27",
+        "value": "$84.47",
+        "change": "+0.79",
         "direction": "up"
       },
       {
         "label": "VIX",
-        "value": "25.44",
-        "change": "-0.05",
+        "value": "25.36",
+        "change": "-1.44",
         "direction": "down"
       }
     ],
